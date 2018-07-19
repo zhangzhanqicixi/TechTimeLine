@@ -1,0 +1,22 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    Twitter: https://weibo.com/u/6514185006/home
+    # GitHub: https://github.com/zhangzhanqicixi
+    Rss: /atom.xml
+    # donation: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2018
