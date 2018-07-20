@@ -3,8 +3,8 @@ date: 2018-12-31 14:49:13
 desc:
 ---
 
-1. pyenv - pyenv-virtualenv 安装
-2. pyenv - pyenv-virtualenv 常用命令
+1. pyenv - pyenv-virtualenv 安装.
+2. pyenv - pyenv-virtualenv 常用命令.
 
 <!--more-->
 
