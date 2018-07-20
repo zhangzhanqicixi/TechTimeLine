@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TECH TIMELINE
+title: TIMELINE229
 subtitle: 一个写过Java，玩过爬虫，现在又在从事数据开发的底层码农
 description: 尽量只会发布技术文章的博客，欢迎订阅
 keywords:
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://t_tl.me
+url: http://blog.timeline229.com
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :title/
