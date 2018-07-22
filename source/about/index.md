@@ -24,6 +24,9 @@ desc:
 
 PS：关于博客具体用到的技术可以看我第一篇[文章](http://www.google.com)
 
+##### 联系我
+- 邮件： [zhangzhanqicixi@gmail.com](zhangzhanqicixi@gmail.com)
+- Telegram: [@moo_less](https://t.me/moo_less)
 
 ##### 其他话
 刚开始入这行纯属是个意外，由于大三时挺焦虑的，听室友说敲代码的前景还不错且我认为我的本专业确实没什么前途，所以就毅然决然的报名去了培训班。
