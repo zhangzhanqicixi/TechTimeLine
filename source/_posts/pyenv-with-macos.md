@@ -1,6 +1,7 @@
 ---
 title: Mac OS 下的 Python 多环境共存
 date: 2018-5-26 14:49:13
+desc: 文章主要介绍 pyenv 和 pyenv-virtualenv 的安装与使用
 ---
 
 文章主要介绍两部分，第一部分关于 [**pyenv**](https://github.com/pyenv/pyenv) 安装与常用命令，第二部分 [**pyenv-virtualenv**](https://github.com/pyenv/pyenv-virtualenv) 常用命令，最终实现的效果是使用 `pyenv activate [python version]` 可以自由切换 Python 版本且不对现有运行环境产生影响。
