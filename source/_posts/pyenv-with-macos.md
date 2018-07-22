@@ -1,5 +1,5 @@
-title: Mac 环境下的 Python 多环境共存
-date: 2018-12-31 14:49:13
+title: Mac OS 下的 Python 多环境共存
+date: 2018-5-1 14:49:13
 desc:
 ---
 
