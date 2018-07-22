@@ -60,7 +60,7 @@ date: 2018-5-26 14:49:13
 ```
 顺利的话你的 **pyenv** 命令就已经安装好了。
 
-##### 3. 常用命令
+##### pyenv 常用命令
 ```
     # pyenv 可以安装的 python 版本
     pyenv  install --list
@@ -79,7 +79,7 @@ date: 2018-5-26 14:49:13
 ```
 
 
-##### 安装与配置
+##### pyenv-virtualenv 安装与配置
 * 通常的安装方法：推荐使用 ` brew install pyenv-virtualenv` 安装，但我用brew安装时遇到了无法安装的情况，所以我就手动安装了。
 
 * 手动安装方法
@@ -95,7 +95,7 @@ date: 2018-5-26 14:49:13
     source ~/.bash_profile
 ```
 
-##### 2. 常用命令
+##### pyenv-virtualenv 常用命令
 ```
 
     # 创建virtualenv（前提是你已经用 pyenv 安装了python 3.5.0）
