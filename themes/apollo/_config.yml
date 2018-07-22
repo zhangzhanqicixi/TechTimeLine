@@ -1,18 +1,19 @@
 menu:
     Blog: /
     Archive: /archives/
-    Twitter: https://weibo.com/u/6514185006/home
-    # GitHub: https://github.com/zhangzhanqicixi
+    Twitter: https://twitter.com/moo_less
+    GitHub: https://github.com/zhangzhanqicixi
+    About: /about
     Rss: /atom.xml
     # donation: /atom.xml
+
 
 favicon: /favicon.png
 logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo:
+disqus: timeline229
 
 # Analytics
 # google-analytics:
