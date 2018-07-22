@@ -25,7 +25,7 @@ desc:
 PS：关于博客具体用到的技术可以看我第一篇[文章](http://www.google.com)
 
 ##### 联系我
-- 邮件： [zhangzhanqicixi@gmail.com](zhangzhanqicixi@gmail.com)
+- 邮件： [zhangzhanqicixi@gmail.com](mailto:zhangzhanqicixi@gmail.com)
 - Telegram: [@moo_less](https://t.me/moo_less)
 
 ##### 其他话
