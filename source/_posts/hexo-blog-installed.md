@@ -29,8 +29,9 @@ desc: 搭建这个 Blog 用到的技术其实都很大众且成熟的，基本�
 - [x] 开发 API RESTFul 服务，使服务端可通过 HTTP 请求自动更新
 - [x] 阿里云万网 DNS 注册及解析
 - [x] Disqus 评论系统集成
+- [x] 全站部署 HTTPS
 - [ ] PV 系统集成
-- [ ] 域名上 HTTPS
+
 
 ##### Hexo 框架及 Apollo 模版
 
