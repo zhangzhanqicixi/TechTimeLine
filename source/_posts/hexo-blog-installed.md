@@ -30,7 +30,6 @@ desc: 搭建这个 Blog 用到的技术其实都很大众且成熟的，基本�
 - [x] 阿里云万网 DNS 注册及解析
 - [x] Disqus 评论系统集成
 - [x] 全站部署 HTTPS
-- [ ] PV 系统集成
 
 ##### Docker
 
@@ -173,7 +172,9 @@ http {
   # 禁止 IP 地址访问服务器，如果是 IP 地址，则返回 500
   server {
      listen    80 default;
-     listen    443 default;
+     listen    443 ssl default;
+     ssl_certificate   /etc/nginx/cert/*.pem;
+     ssl_certificate_key  /etc/nginx/cert/*.key;
      return 500;
   }
 }
@@ -195,4 +196,22 @@ http {
 ##### API 远程更新
 
 updating ... deadline: 2018-07-27
+
+##### 接下来要完成
+
+- ~~禁止直接访问服务器 IP 地址~~
+    - 已经更新在 nginx.conf 上了，需要注意的是在 default server 配置时，也需要添加 **ssl_certificate** 和  **ssl_certificate_key**
+
+    ``` 
+    # 禁止 IP 地址访问服务器，如果是 IP 地址，则返回 500
+    server {
+     listen    80 default;
+     listen    443 ssl default;
+     ssl_certificate   /etc/nginx/cert/*.pem;
+     ssl_certificate_key  /etc/nginx/cert/*.key;
+     return 500;
+    }
+    ```
+- 上线 **PV** 流量统计功能
+     
 
