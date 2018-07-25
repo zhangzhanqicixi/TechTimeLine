@@ -270,10 +270,9 @@ def git_pull():
             notice = '评论如果一直加载不了, 说明被墙了, 自己看着办吧... >_<.'
             r = requests.get(url).text \
                 .replace('Disqus seems to be taking longer than usual.', notice) \
+                # 默认 15 秒才出现 notice，我改成了 0 秒就出现
                 .replace('15e3', '0e3')
             return Response(r, mimetype='text/javascript; charset=utf-8')
     ```
-    
-    - `.replace('15e3', '0e3')` 替换这个的目的是因为默认 15 秒才出现 notice，我改成了 0 秒就出现。
-     
+
 
