@@ -195,10 +195,45 @@ http {
 
 ##### API 远程更新
 
-updating ... deadline: 2018-07-27
+基本的逻辑是在服务端有一个自动更新文章目录的脚本，给这个脚本套一层 API 服务，每次来请求的时候带上一个 **API KEY** 参数，服务端验证这个值，通过就自动更新。
+
+由于服务端只会做目录更新，所以万一 **API KEY** 泄露也不会影响什么。
+
+- 给出基于 **Flask** 写的 API RESTful 代码
+
+```
+import json
+import git
+import traceback
+import requests
+from flask import Flask, Response, request
+from flask_restful import reqparse
+
+@app.route('/api/auto_update')
+def auto_update():
+    response = {'status': 'error'}
+    parser = reqparse.RequestParser()
+    parser.add_argument('key', type=str)
+    args = parser.parse_args()
+    if args['key'] == KEY:
+        response['status'] = 'ok'
+        try:
+            git_pull()
+        except:
+            response['status'] = 'error'
+            response['traceback'] = traceback.format_exc()
+    return Response(json.dumps(response, ensure_ascii=False), mimetype='application/json;charset=utf-8')
+    
+# 在指定的目录更新 (git pull)    
+def git_pull():
+    repo = git.Repo('/app/timeline')
+    remote = repo.remote()
+    remote.pull()
+```
 
 ##### 接下来要完成
 
+- 上线 **PV** 流量统计功能
 - ~~禁止直接访问服务器 IP 地址~~
     - 已经更新在 nginx.conf 上了，需要注意的是在 default server 配置时，也需要添加 **ssl_certificate** 和  **ssl_certificate_key**
 
@@ -212,6 +247,32 @@ updating ... deadline: 2018-07-27
      return 500;
     }
     ```
-- 上线 **PV** 流量统计功能
+    
+- ~~让墙内的用户知道博客有基于 **Disqus** 的评论~~
+    -  网上很多解决方案，大致思路是自己写样式，由服务器直接加载样式。
+    -  数据部分则通过墙外的服务器做反向代理，通过 **Disqus** 提供的 **API** 去拿评论数据。
+    -  而我更倾向让你知道有 **Disqus** 这个东西，且让你知道这个东西被墙了，这样如果你有兴趣，可以自己翻墙去看。
+    -  具体做法：请求自己搭建的接口，接口服务部署在墙外的服务器，返回内容是 **Disqus** 的 **Javascript** 文件，并将加载框的英文注释改为中国注释。
+    -  具体代码如下
+   
+    ```
+    import requests
+    from flask import Flask, Response, request
+    from flask_restful import reqparse
+    
+    @app.route('/api/disqus')
+    def disqus():
+        short_name = request.args.get('short_name', None)
+        path = request.args.get('path', None)
+        if short_name is not None and path is not None:
+            url = 'https://' + short_name + '.disqus.com/' + path + '.js'
+            notice = '评论如果一直加载不了, 说明被墙了, 自己看着办吧... >_<.'
+            r = requests.get(url).text \
+                .replace('Disqus seems to be taking longer than usual.', notice) \
+                .replace('15e3', '0e3')
+            return Response(r, mimetype='text/javascript; charset=utf-8')
+    ```
+    
+    - `.replace('15e3', '0e3')` 替换这个的目的是因为默认 15 秒才出现 notice，我改成了 0 秒就出现。
      
 
