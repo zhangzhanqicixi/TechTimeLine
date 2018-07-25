@@ -233,7 +233,8 @@ def git_pull():
 
 ##### 接下来要完成
 
-- 上线 **PV** 流量统计功能
+- ~~上线 **PV** 流量统计功能~~
+    - 基于 [**不蒜子**](http://ibruce.info/2015/04/04/busuanzi/) 的 **访问次数**，**访问人数** 统计，配置很简单，可以直接点进去看官网。 
 - ~~禁止直接访问服务器 IP 地址~~
     - 已经更新在 nginx.conf 上了，需要注意的是在 default server 配置时，也需要添加 **ssl_certificate** 和  **ssl_certificate_key**
 
@@ -269,9 +270,10 @@ def git_pull():
             notice = '评论如果一直加载不了, 说明被墙了, 自己看着办吧... >_<.'
             r = requests.get(url).text \
                 .replace('Disqus seems to be taking longer than usual.', notice) \
-                # 默认 15 秒才出现 notice，我改成了 0 秒就出现。
                 .replace('15e3', '0e3')
             return Response(r, mimetype='text/javascript; charset=utf-8')
     ```
-
+    
+    - `.replace('15e3', '0e3')` 替换这个的目的是因为默认 15 秒才出现 notice，我改成了 0 秒就出现。
+     
 
