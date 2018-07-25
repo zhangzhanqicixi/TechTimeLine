@@ -253,7 +253,7 @@ def git_pull():
     -  网上很多解决方案，大致思路是自己写样式，由服务器直接加载样式。
     -  数据部分则通过墙外的服务器做反向代理，通过 **Disqus** 提供的 **API** 去拿评论数据。
     -  而我更倾向让你知道有 **Disqus** 这个东西，且让你知道这个东西被墙了，这样如果你有兴趣，可以自己翻墙去看。
-    -  具体做法：请求自己搭建的接口，接口服务部署在墙外的服务器，返回内容是 **Disqus** 的 **Javascript** 文件，并将加载框的英文注释改为中国注释。
+    -  具体做法：请求自己搭建的接口，接口服务部署在墙外的服务器，返回内容是 **Disqus** 的 **Javascript** 文件，并将加载框的英文注释改为中文注释。
     -  具体代码如下
    
     ```
@@ -270,10 +270,10 @@ def git_pull():
             notice = '评论如果一直加载不了, 说明被墙了, 自己看着办吧... >_<.'
             r = requests.get(url).text \
                 .replace('Disqus seems to be taking longer than usual.', notice) \
-                # 默认 15 秒才出现 notice，我改成了 0 秒就出现
                 .replace('15e3', '0e3')
             return Response(r, mimetype='text/javascript; charset=utf-8')
     ```
     
+    - `.replace('15e3', '0e3')` 替换这个的目的是因为默认 15 秒才出现 notice，我改成了 0 秒就出现。
      
 
