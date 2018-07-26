@@ -22,7 +22,7 @@ desc:
 
 选择了负载比较轻的静态博客，因为想着能更纯粹的创造些东西。整个项目放在 **Google Cloud** 的服务器上，基于 **Nginx** ，通过 **Docker** 部署，实现了通过 **API RESTful** 的自动化更新，评论系统基于 **Disqus**；之后如果有流量后，会再上线「每日」和「历史」的 **PV** 统计。
 
-PS：关于博客具体用到的技术可以看我第一篇[文章](/hexo-blog-installed/)
+PS：关于博客具体用到的技术可以看我总结的[文章](/hexo-blog-installed/)
 
 ##### 联系我
 - 邮件： [zhangzhanqicixi@gmail.com](mailto:zhangzhanqicixi@gmail.com)
