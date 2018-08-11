@@ -30,4 +30,4 @@ tags:
 
 &emsp;&emsp;至于不管从客观还是主观上认为 PRC 和 ROC 到底哪个好，Socialism 和 Capitalism 哪个更适合中国，这种纯政治的问题，对于现在的我来说还是不碰为好，我还没有到那个年纪去说这种话，现在无论持哪种立场去抨击另一种立场，都觉得像愤青那么的幼稚，所以这个问题还是留给未来中年的我吧。~~毕竟现在的我是 PRC 公民，我必须无条件拥护 PRC。~~
 
-
+![taiwan](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/thinking-of-taiwan/1533973122.JPG)
