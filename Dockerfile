@@ -8,6 +8,6 @@ RUN npm install
 # install apollo deploy
 RUN npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-generator-archive
 COPY _config.yml .
-COPY ./source/_posts ./source/_posts
+COPY ./source/ ./source/
 COPY ./themes/apollo ./themes/apollo
 CMD ["hexo", "s", "-l"]
