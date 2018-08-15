@@ -14,8 +14,8 @@ platform | clients | official | oss | remark
 Windows | shadowsocks-win | [GitHub](https://github.com/shadowsocks/shadowsocks-windows/releases) | [OSS](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/ssr-clients/Shadowsocks-2.exe) | 国内用户直接点击 OSS 下载
 Mac OS X | ShadowsocksX-NG | [GitHub](https://github.com/shadowsocks/ShadowsocksX-NG/releases) | [OSS](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/ssr-clients/ShadowsocksX-NG.app.zip) | 国内用户直接点击 OSS 下载
 Android | shadowsocks-android | [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) | [OSS](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/ssr-clients/Shadowsocks.apk) | 国内用户直接点击 OSS 下载
-iOS | Phtatso Lite | [App Store](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911) | 没有本地下载地址 | 中国区 Apple ID 是无法搜到 SSR 的 APP 的。如果你没有非中国大陆区的 Apple ID，可参考我的另一篇 [Blog](https://blog.timeline229.com/transfer-appleid-to-us/) 进行转区，或联系[我](mailto:zhangzhanqicixi@gmail.com)提供临时 Apple ID。
-Linux | Shadowsocks-Qt5 | [GitHub](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation) | 没有本地下载地址 |
+iOS | Phtatso Lite | [App Store](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911) | 无 | 中国区 Apple ID 是无法搜到 SSR 的 APP 的。如果你没有非中国大陆区的 Apple ID，可参考我的另一篇 [Blog](https://blog.timeline229.com/transfer-appleid-to-us/) 进行转区，或联系[我](mailto:zhangzhanqicixi@gmail.com)提供临时 Apple ID。
+Linux | Shadowsocks-Qt5 | [GitHub](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation) | 无 | Linux 用户直接参考 GitHub 教程
 
 ##### 使用方式
 
