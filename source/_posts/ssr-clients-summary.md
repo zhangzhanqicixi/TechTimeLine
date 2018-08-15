@@ -43,7 +43,7 @@ Linux | Shadowsocks-Qt5 | [GitHub](https://github.com/shadowsocks/shadowsocks-qt
 各平台软件使用方式大同小异，大概步骤是：
 1. 下载对应平台软件
 2. 安装
-3. 在对应栏输入 IP，Port（端口），Encryption（加密方法），Password
+3. 在对应栏输入 IP，Port（端口），Encryption（加密方法，有些软件叫 Method ），Password
 4. 点击「设置系统代理」（如果有的话）
 5. Start
 6. 如果有 PAC 或者 Smart Routing 模式，建议选上，这样的话你访问国内网站就会走国内流量，访问境外网站才会走代理流量。
