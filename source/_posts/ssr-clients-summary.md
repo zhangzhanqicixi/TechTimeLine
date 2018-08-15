@@ -28,7 +28,7 @@ table th:nth-of-type(5) {
 }
 </style>
 
-platform | clients | official | oss | remark
+platform | client | official | oss | remark
 :---: | :---: | :---: | :---: | :---
 Windows | Shadowsocks-Win | [GitHub](https://github.com/shadowsocks/shadowsocks-windows/releases) | [OSS](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/ssr-clients/Shadowsocks-2.exe) | 国内用户直接点击 OSS 下载
 Mac OS X | ShadowsocksX-NG | [GitHub](https://github.com/shadowsocks/ShadowsocksX-NG/releases) | [OSS](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/ssr-clients/ShadowsocksX-NG.app.zip) | 国内用户直接点击 OSS 下载
