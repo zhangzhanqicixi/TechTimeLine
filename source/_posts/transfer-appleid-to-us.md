@@ -25,8 +25,10 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/transfer-apple-id/1533968
 - 登录 [PayPal](https://www.paypal.com/us/home) 官网，点击右上角「Sign Up」注册，根据提示注册一个账号，注意注册过程中「地区」一栏选择美国。
 
 - 登录你的账户，选择「Link a bank or card」，根据提示把你的信用卡信息输入，「Billing address」 可以网上用地址生成器生成一个美国地址，电话号码也如此（PS：如果你输入的电话号码提示需要被验证，建议换一个 IP 地址访问，我用 Google Cloud 的美国地址是需要验证电话的，但是用 Aliyun 日本的 IP 地址就不需要访问）。
-    ![link card](
-https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/transfer-apple-id/1533968982.png)
+<center>
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/transfer-apple-id/1533968982.png" width="300" title="node">
+</center>
+
 
 ##### 转区
 接下来就很简单了，登录 iTunes，选择「账号」 - 「检查我的账号」 - 「改变国家和地区」，选择美国，一路点 Next，到选择 「Payment Method」 时，如果你按我之前说的挂着国外的 IP 地址，就会出现 「PayPal」 或 「None」 选项，「Biliing address」也可以随便填，顺利的话点击「Done」就搞定了。
