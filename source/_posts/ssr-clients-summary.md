@@ -17,6 +17,8 @@ Android | shadowsocks-android | [Google Play](https://play.google.com/store/apps
 iOS | Phtatso Lite | [App Store](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911) | 无 | 中国区 Apple ID 是无法搜到 SSR 的 APP 的。如果你没有非中国大陆区的 Apple ID，可参考我的另一篇 [Blog](https://blog.timeline229.com/transfer-appleid-to-us/) 进行转区，或联系[我](mailto:zhangzhanqicixi@gmail.com)提供临时 Apple ID。
 Linux | Shadowsocks-Qt5 | [GitHub](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation) | 无 | Linux 用户直接参考 GitHub 教程
 
+<!--more-->
+
 ##### 使用方式
 
 各平台软件使用方式大同小异，大概步骤是：
