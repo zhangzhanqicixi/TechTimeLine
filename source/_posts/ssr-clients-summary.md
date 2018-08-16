@@ -11,7 +11,7 @@ tags:
 
 ##### ZPanel 用户
 
-> 有自己账号的同学可直接跳过
+> 有自己账号的同学可直接跳过，如果想购买流量的同学直接找[我](mailto:zhangzhanqicixi@gmail.com)，我会给你报价。
 
 - 登录 [ZPanel](http://panel.timeline229.com/user)
 - 选择左侧导航栏的 「节点列表」(如下 1 图）
