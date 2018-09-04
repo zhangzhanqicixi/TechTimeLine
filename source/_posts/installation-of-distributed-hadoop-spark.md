@@ -21,156 +21,136 @@ Slave | 192.168.1.78 | CPU: 2 cores RAM: 8G | `JDK: 1.8.0_181` `Scala: 2.10.6` `
 ##### 准备：设置 Hosts
 - **Master**
 
-    打开 Hosts 文件：
-    ```
-    vim /etc/hosts
-    ```
+    - 追加 Hosts 文件内容：
+        ``` 
+        vim /etc/hosts 
+        ```
+        ```
+        192.168.1.77 master
+        192.168.1.78 slave
+        ```
 
-    追加内容：
-    ```
-    192.168.1.77 master
-    192.168.1.78 slave
-    ```
-
-    保存退出
-
-    打开 network：
-    ```
-    vim /etc/sysconfig/network
-    ```
-
-    追加内容：
-    ```
-    NETWORKING=yes
-    HOSTNAME=master
-    ```
-
-    保存退出
+    - 追加 network 内容：
+        ```
+        vim /etc/sysconfig/network
+        ```
+        ```
+        NETWORKING=yes
+        HOSTNAME=master
+        ```
 
 - **Slave**
 
-    打开 Hosts 文件：
-    ```
-    vim /etc/hosts
-    ```
+    - 打开 Hosts 文件：
+        ``` 
+        vim /etc/hosts 
+        ```
+        ```
+        192.168.1.77 master
+        192.168.1.78 slave
+        ```
 
-    追加内容：
-    ```
-    192.168.1.77 master
-    192.168.1.78 slave
-    ```
-
-    保存退出
-
-    打开 network：
-    ```
-    vim /etc/sysconfig/network
-    ```
-
-    追加内容：
-    ```
-    NETWORKING=yes
-    HOSTNAME=master
-    ```
-
-    保存退出
+    - 追加 network 内容：
+        ```
+        vim /etc/sysconfig/network
+        ```
+        ```
+        NETWORKING=yes
+        HOSTNAME=master
+        ```
 
 ##### 准备：关闭 Selinux 和防火墙 Firewall
 - **Master**
 
-    打开 Selinux 配置文件：
-    ```
-    vim /etc/selinux/config
-    ```
+    - 修改 Selinux 配置文件：
+        ```
+        vim /etc/selinux/config
+        ```
+        ```
+        SELINUX=disabled
+        ```
+        ```
+        # This file controls the state of SELinux on the system.
+        # SELINUX= can take one of these three values:
+        #     enforcing - SELinux security policy is enforced.
+        #     permissive - SELinux prints warnings instead of enforcing.
+        #     disabled - No SELinux policy is loaded.
+        SELINUX=disabled
+        # SELINUXTYPE= can take one of three two values:
+        #     targeted - Targeted processes are protected,
+        #     minimum - Modification of targeted policy. Only selected processes are protected.
+        #     mls - Multi Level Security protection.
+        SELINUXTYPE=targeted
+        ```
 
-    修改内容为：
-    ```
-    SELINUX=disabled
-    ```
-    ```
-    # This file controls the state of SELinux on the system.
-    # SELINUX= can take one of these three values:
-    #     enforcing - SELinux security policy is enforced.
-    #     permissive - SELinux prints warnings instead of enforcing.
-    #     disabled - No SELinux policy is loaded.
-    SELINUX=disabled
-    # SELINUXTYPE= can take one of three two values:
-    #     targeted - Targeted processes are protected,
-    #     minimum - Modification of targeted policy. Only selected processes are protected.
-    #     mls - Multi Level Security protection.
-    SELINUXTYPE=targeted
-    ```
+    - 关闭防火墙 Firewall：
+        ```
+        ipdatable -F;
+        ```
 
-    关闭防火墙 Firewall：
-    ```
-    ipdatable -F;
-    ```
+    - 查看防火墙是否关闭：
+        ```
+        iptabls -nvL
+        ```
+        ```
+        [root@izbp11ddoyj3i3tqpvtim9z conf]# iptables -nvL
+        Chain INPUT (policy ACCEPT 1421K packets, 606M bytes)
+         pkts bytes target     prot opt in     out     source               destination
+    
+        Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+         pkts bytes target     prot opt in     out     source               destination
+    
+        Chain OUTPUT (policy ACCEPT 851K packets, 1534M bytes)
+         pkts bytes target     prot opt in     out     source               destination
+        ```
 
-    查看防火墙是否关闭：
-    ```
-    iptabls -nvL
-    ```
-    ```
-    [root@izbp11ddoyj3i3tqpvtim9z conf]# iptables -nvL
-    Chain INPUT (policy ACCEPT 1421K packets, 606M bytes)
-     pkts bytes target     prot opt in     out     source               destination
-
-    Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
-     pkts bytes target     prot opt in     out     source               destination
-
-    Chain OUTPUT (policy ACCEPT 851K packets, 1534M bytes)
-     pkts bytes target     prot opt in     out     source               destination
-    ```
-
-    重新启动实例
+    - 重新启动实例
 
 - **Slave**
 
-    打开 Selinux 配置文件：
-    ```
-    vim /etc/selinux/config
-    ```
+    - 修改 Selinux 配置文件：
+        ```
+        vim /etc/selinux/config
+        ```
+        ```
+        SELINUX=disabled
+        ```
+        ```
+        # This file controls the state of SELinux on the system.
+        # SELINUX= can take one of these three values:
+        #     enforcing - SELinux security policy is enforced.
+        #     permissive - SELinux prints warnings instead of enforcing.
+        #     disabled - No SELinux policy is loaded.
+        SELINUX=disabled
+        # SELINUXTYPE= can take one of three two values:
+        #     targeted - Targeted processes are protected,
+        #     minimum - Modification of targeted policy. Only selected processes are protected.
+        #     mls - Multi Level Security protection.
+        SELINUXTYPE=targeted
+        ```
 
-    修改内容为：
-    ```
-    SELINUX=disabled
-    ```
-    ```
-    # This file controls the state of SELinux on the system.
-    # SELINUX= can take one of these three values:
-    #     enforcing - SELinux security policy is enforced.
-    #     permissive - SELinux prints warnings instead of enforcing.
-    #     disabled - No SELinux policy is loaded.
-    SELINUX=disabled
-    # SELINUXTYPE= can take one of three two values:
-    #     targeted - Targeted processes are protected,
-    #     minimum - Modification of targeted policy. Only selected processes are protected.
-    #     mls - Multi Level Security protection.
-    SELINUXTYPE=targeted
-    ```
+    - 关闭防火墙 Firewall：
+        ```
+        ipdatable -F;
+        ```
 
-    关闭防火墙 Firewall：
-    ```
-    ipdatable -F;
-    ```
+    - 查看防火墙是否关闭：
+        ```
+        iptabls -nvL
+        ```
+        ```
+        [root@izbp11ddoyj3i3tqpvtimaz conf]# iptables -nvL
+        Chain INPUT (policy ACCEPT 1421K packets, 606M bytes)
+         pkts bytes target     prot opt in     out     source               destination
+    
+        Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+         pkts bytes target     prot opt in     out     source               destination
+    
+        Chain OUTPUT (policy ACCEPT 851K packets, 1534M bytes)
+         pkts bytes target     prot opt in     out     source               destination
+        ```
 
-    查看防火墙是否关闭：
-    ```
-    iptabls -nvL
-    ```
-    ```
-    [root@izbp11ddoyj3i3tqpvtim9z conf]# iptables -nvL
-    Chain INPUT (policy ACCEPT 1421K packets, 606M bytes)
-     pkts bytes target     prot opt in     out     source               destination
-
-    Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
-     pkts bytes target     prot opt in     out     source               destination
-
-    Chain OUTPUT (policy ACCEPT 851K packets, 1534M bytes)
-     pkts bytes target     prot opt in     out     source               destination
-    ```
-
-    重新启动实例
+    - 重新启动实例
 
 ##### 准备：配置免密钥登录
 - **Master**
