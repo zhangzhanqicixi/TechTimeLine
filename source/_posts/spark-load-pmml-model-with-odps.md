@@ -11,7 +11,7 @@ tags:
 Spark 搭建可以看我上一篇博客，[传送门](https://blog.timeline229.com/installation-of-distributed-hadoop-spark/)。
 
 过程挺简单，都有现成的 API 和项目 Demo，先给参考的相关地址：
-- [e-map-reduce demo for spark 1.5](https://github.com/aliyun/aliyun-emapreduce-demo/tree/master) (如果你的 spark 是 2.x 的，则将 branch 选择成 master-2* 的，Spark 1.* 和 2.* 是不能通用的)
+- [e-map-reduce demo for spark 1.5](https://github.com/aliyun/aliyun-emapreduce-demo/tree/master) (如果你的 spark 是 2.x 的，则将 branch 选择成 master-2* ，Spark 1.* 和 2.* 是不能通用的)
 - [Spark 1.5 或 Spark 1.6 加载 PMML 模型](https://github.com/ma3axaka/jpmml-spark)
 - [阿里云 org.apache.spark.aliyun 官方文档](https://static.javadoc.io/com.aliyun.emr/emr-sdk_2.11/1.3.2/index.html#org.apache.spark.aliyun.odps.OdpsOps)
 
