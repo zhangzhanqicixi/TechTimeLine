@@ -38,14 +38,17 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 比较坑的是如果运营商是中国电信，从中国大陆直连，速度就非常慢，ping 基本在 200ms 以上，而且使用 Netflix 官方测速工具 [fast.com](https://fast.com ) ，速度仅在 200Kbps 上下，这种速度是没法看 Netflix 的。
 
 - 本地网络直连 VPS 后访问 Netflix 速度
+
 ![fast](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/fast-local.png)
 
 - 本地网络 ping 新加坡本地 VPS
+
 ![pingvps](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/pingvps.png)
 
 相比之下，我在阿里云国际版中新加坡区的 ECS，延迟就小了很多，ping 几乎能到 100ms 以下，速度也基本能跑满（默认是 30Mbps），我对 4K 也没有需求，所以对我来说肯定够用了。
 
 - 本地网络 ping 新加坡 Aliyun ECS
+
 ![pingecs](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/pingecs.png)
 
 但为什么会这样呢？查了下原因，发现中国电信运营商下的国际线路中，阿里云新加坡区走的是电信提供的比较优质的 CN2 线路，而一般的 VPS 厂商，走的是电信普通线路，所以速度和延迟可想而知了。。
@@ -53,12 +56,15 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 那么怎么解决呢？我想到的是，由于 Aliyun 新加坡的服务器和新加坡本地 VPS 服务器之间，基本没有延迟的特性（1ms - 2ms），所以可以直接访问 Aliyun , 通过 HAProxy 转发整个请求包，将请求转发到坡县本地的 VPS 服务器上，这样的话延迟下降到 100ms，访问   速度也将上升到 Aliyun ECS 的速度；
 
 - 新加坡服务器之间互 ping
+
 ![ecspingvps](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/ecspingvps.png)
 
 - 普通线路访问
+
 ![flowchart](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/flowchat.png)
 
 - 用阿里云 CN2 线路作为中继
+
 ![flowchart-cn2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/flowchat-cn2.png)
 
 
