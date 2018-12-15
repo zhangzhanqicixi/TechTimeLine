@@ -43,14 +43,14 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 - 本地网络 ping 新加坡本地 VPS
 ![pingvps](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/pingvps.png)
 
-相比之下，我在阿里云国际版中新加坡区的 ECS，延迟就小了很多，ping 几乎能到 100ms 一下，速度也基本能跑满（默认是 30Mbps），我对 4K 也没有需求，所以对我来说肯定够用了。
+相比之下，我在阿里云国际版中新加坡区的 ECS，延迟就小了很多，ping 几乎能到 100ms 以下，速度也基本能跑满（默认是 30Mbps），我对 4K 也没有需求，所以对我来说肯定够用了。
 
 - 本地网络 ping 新加坡 Aliyun ECS
 ![pingecs](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/pingecs.png)
 
 但为什么会这样呢？查了下原因，发现中国电信运营商下的国际线路中，阿里云新加坡区走的是电信提供的比较优质的 CN2 线路，而一般的 VPS 厂商，走的是电信普通线路，所以速度和延迟可想而知了。。
 
-那么怎么解决呢？我想到的是，由于 Aliyun 新加坡的服务器和新加坡本地 VPS 服务器之间，基本没有延迟的特性（1ms - 2ms），所以可以直接访问 Aliyun , 通过 HAProxy 转发整个请求包，将请求转发到坡县本地的 VPS 服务器上，这样的话延迟下降到 100ms；
+那么怎么解决呢？我想到的是，由于 Aliyun 新加坡的服务器和新加坡本地 VPS 服务器之间，基本没有延迟的特性（1ms - 2ms），所以可以直接访问 Aliyun , 通过 HAProxy 转发整个请求包，将请求转发到坡县本地的 VPS 服务器上，这样的话延迟下降到 100ms，访问   速度也将上升到 Aliyun ECS 的速度；
 
 - 新加坡服务器之间互 ping
 ![ecspingvps](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/ecspingvps.png)
@@ -63,7 +63,7 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 
 
 #####  HAProxy
-阿里云 ECS 转发请求的 Haproxy，过程很简单，首先安装 HAProxy
+阿里云 ECS 转发请求的 HAProxy，过程很简单，首先安装 HAProxy
 ```
     # Debian / Ubuntu系统：
     apt-get -y install haproxy
@@ -105,11 +105,13 @@ systemctl start haproxy
 systemctl enable haproxy
 ```
 
-增加了 Aliyun 作为中继转发之后，基本可以做到无等待看 Netflix，再次测速，跑满了 Aliyun ECS 的带宽。
+##### 测试
+增加了 Aliyun 作为中继转发之后，基本可以做到无等待看 Netflix 了。再次测速，可以跑满 Aliyun ECS 的带宽。
 
 ![fast](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/fast-aliyun.png)
 
 ##### 总结
+
 简单来说，如果你在中国看 Netflix，大概需要以下的工具（产品）
 - 海外信用卡 - 海外 VPS 厂商，Netflix
 - PayPal - Netflix， 阿里云国际
