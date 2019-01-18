@@ -19,7 +19,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 - 2019-01-01 登录 RentalCover 提出索赔
 - 2019-01-05 发邮件给 RentalCover 问进度
 - 2019-01-07 收到 RentalCover 进度询问回复，并被告知理赔正在处理中
-- 2019-01-19 收到 RentalCover 邮件，提出需要额外的资料
+- 2019-01-09 收到 RentalCover 邮件，提出需要额外的资料
 - 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料
 - ...
 
