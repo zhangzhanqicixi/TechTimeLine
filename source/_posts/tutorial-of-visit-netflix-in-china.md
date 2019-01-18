@@ -18,6 +18,7 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 
 ![订阅服务](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/subscribe.png)
 
+
 ##### 代理服务
 
 中国大陆的网络是无法直接访问 Netflix 的，需要代理访问，但 Aliyun, GCP 等知名大厂的服务器作为代理，可以访问但看不了剧，原因是 Netflix 自身维护了一个巨大的 IP 库黑名单，里面维护了几乎所有 VPS 大厂的 IP 段。所以我们就需要找一个没有被 Netflix 屏蔽 IP 段的 VPS 厂商。
@@ -25,8 +26,7 @@ Netflix 提供三种套餐，如下图，只要标准及以上的套餐提供 HD
 ![proxy](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/proxyban.png)
 
 > 刚开始我还想过通过抓包分析请求头重写或者直接 reject 某些验证请求了，暂时都不行。（可能也是我还没分析到位）
-
-
+    
 ##### 问题和优化
 
 之后我选择了一家新加坡本地 VPS 服务商，不说名字了，因为他们没给我钱让我广告，需要看看的可以点 [这里](https://usonyx.net) ，我选了 Lite 配置是 2U / 20G SSD / 2G Memory / 每个月 2TB 流量 / 100Mbps 的带宽 ，5 新币 / 月，配置价格还算公道，至少比阿里云划算，实测下来带宽在 100Mbps - 200Mbps 左右。
@@ -124,3 +124,17 @@ systemctl enable haproxy
 - 支持 CN2 路线的服务器 - 确保国内访问海外服务器速度
 - 没有被 Netflix 拉黑的服务器 - 直连 Netflix 服务器
 - HAProxy 和 Shadowsocks 配置
+
+##### Netflix 转区
+> 这部分内容是 2019-01-19 加的，在使用了一段时间 Netflix 之后，发现土耳其区的 Netflix 套餐特别便宜，所以打算把账号从新加坡区转到土耳其区
+
+![turkey](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/turgey.png)
+
+可以看到 Netflix 土耳其区的 Premium「高级」套餐收费是 40 里拉，按 2019-01-19 的汇率算成 RMB，只需要 50 元，而同样的套餐在 Netflix 新加坡区则收费 RMB 85 元（16.98SGD），所以为了薅一下每个月 35 块钱的羊毛，我决定转区。
+
+但是发现 Netflix 不能做直接转区操作，想要转区的逻辑是：
+1. 首先你要登录账号，手动去停止续费
+2. 等待这个月的套餐时间用完之后
+3. 用一个土耳其的 IP 作为代理去访问 Netflix，重新去开通账户。
+
+具体可以看 Netflix 官方说明 [旅行或搬家时使用 Netflix](https://help.netflix.com/zh-tw/node/24853)
