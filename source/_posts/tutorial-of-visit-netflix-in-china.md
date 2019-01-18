@@ -130,7 +130,7 @@ systemctl enable haproxy
 
 ![turkey](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/tutorial-of-visit-netflix-in-china/turgey.png)
 
-可以看到 Netflix 土耳其区的 Premium「高级」套餐收费是 40 里拉，按 2019-01-19 的汇率算成 RMB，只需要 50 元，而同样的套餐在 Netflix 新加坡区则收费 RMB 85 元（16.98SGD），所以为了薅一下每个月 35 块钱的羊毛，我决定转区。
+可以看到 Netflix 土耳其区的 Premium「高级」套餐收费是 40 里拉，按 2019-01-19 的汇率 1.27 换算成 RMB，只需要 50 元，而同样的套餐在 Netflix 新加坡区则收费 RMB 85 元（16.98 SGD），所以为了薅一下每个月 35 块钱的羊毛，我决定转区。
 
 但是发现 Netflix 不能做直接转区操作，想要转区的逻辑是：
 1. 首先你要登录账号，手动去停止续费
