@@ -81,7 +81,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 
     当晚我就开始了 RentalCover 的索赔路程，用你当时投保的 email 和 预订编号 (以-INS结尾) 后，就进入索赔页面，按照他的页面提示，上传对应的文件就行了
     
-    ![online](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg)
+![online](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg)
 
 - 第二题提交材料
 
@@ -90,25 +90,30 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     2. A receipt from the service provider who repaired the damages OR a copy of the pricing table (some EU rental companies use a table like this to calculate the damage cost).（对于损坏的部位支付的收据）
     3. A signed rental agreement that reflects the excess amount.（租车协议，反映超额金额）
 
-    ![reply1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply1.png)
+![reply1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply1.png)
 
-    很认真的开始准备材料，除了他上面需要的材料，我还准备了：意大利大使馆认证驾照，事故报告，出事故时候的车辆照片
+
+很认真的开始准备材料，除了他上面需要的材料，我还准备了：意大利大使馆认证驾照，事故报告，出事故时候的车辆照片
     
-    ![commit1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/commit1.png)
+![commit1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/commit1.png)
     
 - 第三次提交材料
 
     我以为我提交的材料很准确了，但是在 2019-01-16，又被 RentalCover 打了回来，被通知要继续提供第 2 项材料，即「A receipt from the service provider who repaired the damages OR a copy of the pricing table (some EU rental companies use a table like this to calculate the damage cost).（对于损坏的部位支付的收据）」
+    
     由于我手上只有租车公司给我提供的收据单，并把账单和收据统一命名为「Invoice-of-repair-costs.pdf」，所以我怀疑是他没有仔细看这个 PDF，觉得没有「Receipt」字样就打回来了。
+    
     为此我还特地 Google 查了下 Invoice 和 Receipt 的区别，发现 Invoice 是发票的意思，Receipt 才是收据的意思。经过这件事，我一定不会乱用这两个单词了。。
     
-    ![reply2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png)
+![reply2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png)
     
-    所以我什么都没干，把文件重命名了下，改成了「receipt-of-repair-cost.pdf」的文件名，并解释了一下这是一份意大利语的文件，并标注了收据部分的字样。。
+
+所以我什么都没干，把文件重命名了下，改成了「receipt-of-repair-cost.pdf」的文件名，并解释了一下这是一份意大利语的文件，并标注了收据部分的字样之后就回复了。。
     
-    ![commit2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/commit2.png)
+![commit2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/commit2.png)
     
-    PS: 感觉沟通效率真的好低...腐朽的资本主义
+
+PS: 感觉沟通效率真的好低...腐朽的资本主义
     
 未完待续中 ...
     
