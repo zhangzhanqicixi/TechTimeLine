@@ -23,6 +23,8 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 - 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料
 - ...
 
+<!--more-->
+
 ##### Rentalcars
 
 简单介绍下 [Rentalcars](https://www.rentalcars.com)，这是一家英国的租车中介公司，类似国内的租租车，本身不提供租车，但集成了全球很多租车公司，价格比租租车低很多，并且在中国大陆有提供中文服务。但是，中国大陆的中文服务也仅仅是租车时提供，如果你出险了，会直接对接另一家保险公司，叫做 RentalCover，他们虽然都属于一个母公司，但是 RentalCover 并没有提供中国大陆的中文服务，所以沟通起来很困难，也导致我的理赔过程异常辛苦。
