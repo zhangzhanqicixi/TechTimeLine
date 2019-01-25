@@ -19,8 +19,9 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 - 2019-01-01 登录 RentalCover 提出索赔
 - 2019-01-05 发邮件给 RentalCover 问进度
 - 2019-01-07 收到 RentalCover 进度询问回复，并被告知理赔正在处理中
-- 2019-01-09 收到 RentalCover 邮件，提出需要额外的资料
-- 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料
+- 2019-01-09 收到 RentalCover 邮件，提出需要额外的资料，重新提供一遍所有已在网站上提交过的文件
+- 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料（维修发票和收据）
+- 2019-01-23 收到 RentalCover 邮件，指出提供的维修发票仍然无效，随即我马上向 JoyRent 租车公司联系，并转发邮件给 RentalCover 告知这是 JoyRent 唯一能提供的维修发票
 - ...
 
 <!--more-->
