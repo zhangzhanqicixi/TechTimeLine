@@ -22,7 +22,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 - 2019-01-09 收到 RentalCover 邮件，提出需要额外的资料，重新提供一遍所有已在网站上提交过的文件
 - 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料（维修发票和收据）
 - 2019-01-23 收到 RentalCover 邮件，指出提供的维修发票仍然无效，随即我马上向 JoyRent 租车公司联系，并转发邮件给 RentalCover 告知这是 JoyRent 唯一能提供的维修发票
-- 2019-01-29 收到 RentalCover 确认邮件，被告知我的 Claim 终于通过了，接下来就是等款项 PayPal 到账...
+- 2019-01-28 收到 RentalCover 确认邮件，被告知我的 Claim 终于通过了，接下来就是等款项 PayPal 到账...
 - ...
 
 <!--more-->
@@ -116,7 +116,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     
 - 第四次提交材料
 
-    如上图，2019-01-23，又被 RentalCover 打了回来说收据单不正确，不符合他们的要求，我都要崩溃了。随即联系了我的租车公司 JoyRent，这里表扬一下 JoyRent，我发邮件的时候是意大利时间的凌晨，我以为跟腐朽的英国公司 RentalCover 一样，又要隔好几天才能收到邮件，结果我在意大利时间早上 12 点就收到了回复邮件（意大利人普遍 10 点上班），告知我提供的材料是正确的，原文即「The pricing table (some EU rental companies use a table like this to calculate the damage cost) is the DAMAGE TABLE attached on this e-mail.
+    2019-01-23，又被 RentalCover 打了回来说收据单不正确，不符合他们的要求，我都要崩溃了。随即联系了我的租车公司 JoyRent 询问材料是否有问题。这里表扬一下 JoyRent，我发邮件的时候是意大利时间的凌晨，我以为跟腐朽的英国公司 RentalCover 一样，又要隔好几天才能收到邮件，结果我在意大利时间当天早上 12 点就收到了回复邮件，告知我提供的材料是正确的，原文即「The pricing table (some EU rental companies use a table like this to calculate the damage cost) is the DAMAGE TABLE attached on this e-mail.
 According to our Rental Conditions (Art.5), the damage costs are calculated based on the damage tables available at the Desk and in our website ( www.joyrent.it).」。
     那时我一度被感觉踢皮球了，马上把该邮件转发到 RentalCover，语气开始有点强硬，告知你们两家公司材料不同步的问题不要让作为客户的我感到为难。结果在 2019-01-28，终于收到了 RentalCover 确认邮件，告知材料已经被接受，至此材料提交过程终于结束了...
     
