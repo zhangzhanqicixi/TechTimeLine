@@ -15,7 +15,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     
 出险到理赔的时间轴：
 - 2018-12-30 车库倒车时，撞掉后视镜
-- 2018-12-31 到车行还车，报价，付钱，走人
+- 2018-12-31 到车行还车，报价（EUR 427.00），付钱，走人
 - 2019-01-01 登录 RentalCover 提出索赔
 - 2019-01-05 发邮件给 RentalCover 问进度
 - 2019-01-07 收到 RentalCover 进度询问回复，并被告知理赔正在处理中
@@ -23,7 +23,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 - 2019-01-16 收到 RentalCover 邮件，再次要求提供所缺的材料（维修发票和收据）
 - 2019-01-23 收到 RentalCover 邮件，指出提供的维修发票仍然无效，随即我马上向 JoyRent 租车公司联系，并转发邮件给 RentalCover 告知这是 JoyRent 唯一能提供的维修发票
 - 2019-01-28 收到 RentalCover 确认邮件，被告知我的 Claim 终于通过了，接下来就是等款项 PayPal 到账...
-- ...
+- 2019-01-29 收到 RentalCover 的赔款，共计 USD 484.71
 
 <!--more-->
 
@@ -125,7 +125,18 @@ According to our Rental Conditions (Art.5), the damage costs are calculated base
 PS: 感觉沟通效率真的好低...腐朽的资本主义
  
 ##### 赔款到账   
-等待中 ...
+
+RentalCover 付款的效率倒挺高的，第二天（2019-01-29）就收到了 PayPal 的入款通知，至此此次理赔终于结束了。
+
+![paypal-receive](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/paypal-receive.jpeg)
+
+##### 总结
+
+虽然第一次出国，第一次自驾，出了这段小插曲，中间也发现了一些挫折，但是作为重视以结果为导向的我来说，只要结果是好的，我也就比较满意了。
+
+在 RentalCars 租车，价格比国内租租车实惠，相同时间相同车行，车型也有更多的选择，而且他们提供的全险基本是我做过功课的租车公司（中介公司）所提供的最好的保险。除了索赔过程中由于承租公司和 RentalCover 没有协调好导致我的材料一直被打回来发生了这点小插曲之外，其他的点我还是挺满意的。
+
+BTW，作为老司机的我，下次自驾绝对不能再出险了。
     
     
 
