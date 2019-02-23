@@ -18,8 +18,6 @@ Apple TV 其实和普通的电视盒子一样，都是用来浏览互联网上�
 
 使用 Apple TV，完全不推荐使用中国大陆的 Apple ID，如果使用中国的 Apple ID，进入 Apple TV 之后会发现什么都没有，我长期使用美区的 Apple ID，资源相对来说是最全面。
 
-
-
 第一次使用 Apple TV 或恢复出厂设置时，Apple TV 会提醒你是否需要登录 Apple ID，登录之后，你就不需要设置 Wifi，iCloud 等这些配置，Apple TV 会直接拉取你在 iCloud 上的配置。
 
 ![setup](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/setup.png)
