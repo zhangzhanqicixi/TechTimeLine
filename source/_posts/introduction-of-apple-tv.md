@@ -7,7 +7,6 @@ tags:
 ![cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/device.jpg)
 
 入手 Apple TV 也有一段时间了，基本搞清楚了这东西在中国使用的门道，写这篇文章的原因也是因为想在中国完整的和全面的体验 Apple TV，是需要有不少技术和金钱成本的。
-
 <!--more-->
 
 ##### Apple TV
