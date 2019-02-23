@@ -1,5 +1,5 @@
 ---
-title: 在中国如何使用 Apple TV 
+title: 针对中国大陆的 Apple TV 最佳配置教程 
 date: 2019-02-23 16:27:17
 tags:
 ---
