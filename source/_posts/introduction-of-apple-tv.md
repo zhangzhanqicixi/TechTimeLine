@@ -37,7 +37,7 @@ Apple TV 其实和普通的电视盒子一样，都是用来浏览互联网上�
 
 ![setup](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/cover.jpg)
 
-为了观影体验，我入手了一台 Sony KD-43X8500F HDR，虽然我暂时没有看出 HRD 和 UHD 的在这台电视上的显示区别，但是听网上那么多人吹 HDR，我想买了总没错的。
+为了观影体验，我入手了一台 Sony KD-43X8500F HDR，虽然我暂时没有看出 HDR 和 UHD 的在这台电视上的显示区别，但是听网上那么多人吹 HDR，我想买了总没错的。
 
 Apple TV 只支持 HDMI 视音频输出，如果你的电视机是 4K 的，还必须使用 HDMI 2.0 的高速线缆，苹果官网有贝尔金的 HDMI 线缆，但是价格很感人，我记得是 236 元。我自己淘宝买了一根 68 元的 0.5 米线缆，至今没出什么问题。
 
