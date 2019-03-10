@@ -65,7 +65,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 ##### 初步方案
 说实话，前 10 分钟脑子是懵逼的，不知道怎么办才好，因为我完全不会意大利语，我的英语水平也只处于面对面加手势和外国人交流，在电话里交流绝对会懵逼。
 
-之后我女朋友比我先冷静了下来，找当地的会意大利语的同学打电话给 Joyrent，得到的答复是如果车辆还能正常行驶的话，就先把车开回车行，直接报价就可以解决；
+之后我朋友比我先冷静了下来，找当地的会意大利语的同学打电话给 Joyrent，得到的答复是如果车辆还能正常行驶的话，就先把车开回车行，直接报价就可以解决；
 然后我们去楼上超市买了胶带和剪刀，先把车开回酒店，看了眼车门，发现只是粘上了油漆，并没有其他损伤，我们就打算用毛巾擦，擦了两个小时，终于把车门上的漆擦掉了；
 
 ![cacacaca](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/cacacacaca.jpg)
