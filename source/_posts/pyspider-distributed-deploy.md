@@ -242,7 +242,9 @@ networks:
 ##### 配置 **processor**，**fetcher**，**result-worker** 模块的进程数量
 `docker-compose scale phantomjs=2 processor=4 result-worker=2`
 
+
 ![spider-docker](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/pyspider-distributed-deploy/docker-pyspider.png)
+
 
 ##### 参考
 * [demo.pyspider.org 部署经验](https://binux.blog/2016/05/deployment-of-demopyspiderorg/)
