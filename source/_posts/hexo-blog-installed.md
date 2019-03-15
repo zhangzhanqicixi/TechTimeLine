@@ -8,6 +8,9 @@ desc: 搭建这个 Blog 用到的技术其实都很大众且成熟的，基本�
 搭建这个 Blog 用到的技术其实都很大众且成熟的，基本都是可以直接拿来用的。
 
 ##### 技术框架
+
+![hexo](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/hero-blog-installed/hexo-official.png)
+
 博客框架我用的是 [**Hexo**](https://hexo.io/zh-cn/docs/index.html)， 模版用的是 [**Apollo**](https://github.com/pinggod/hexo-theme-apollo)， 运营商选择了 [**Google Cloud**](https://cloud.google.com/)，反向代理还是 **Nginx**，实现了基于 **Python Flask** 的 **API RESTFul** 的自动更新，最后用 **Docker** 封装了上面这些服务，为的是以后迁移服务器时可以更加快捷和方便。
 
 > 2018-08-13 更新：运营商换回了 Aliyun HK，Google Cloud 在国内用起来还是不方便，而且整体收费比阿里云要贵一丢丢
