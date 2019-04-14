@@ -48,7 +48,7 @@ SELECT * FROM ( SELECT client_ip, referer, ip_to_country(client_ip) AS county, i
 ```
     
 
-则对筛选出来的日志做了处理，从内层到外层分别表示为：以访问的 IP 地址和博客地址做 group by 分组，将 IP 转成对应的国家、省份、城市，并取最近的访问时间作为 recent_time 字段。最后对 recent_time 做倒排序，讲数据输出。
+则对筛选出来的日志做了处理，从内层到外层分别表示为：以访问的 IP 地址和博客地址做 group by 分组，将 IP 转成对应的国家、省份、城市，并取最近的访问时间作为 recent_time 字段。最后对 recent_time 做倒排序，将数据输出。
     
 最后呈现出来的数据为：
     
