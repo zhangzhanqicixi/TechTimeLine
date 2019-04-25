@@ -453,7 +453,7 @@ Slave | 192.168.1.78 | CPU: 2 cores RAM: 8G | `JDK: 1.8.0_181` `Scala: 2.10.6` `
     - 同步 Hadoop 配置文件至 slave
 
         ```
-        rsync -av /usr/local/hadoop-2.7.6/etc slave:/usr/local/hadoop-2.7.6/etc
+        rsync -av /usr/local/hadoop-2.7.6/etc/ slave:/usr/local/hadoop-2.7.6/etc/
         ```
 
     - Hadoop 环境变量
