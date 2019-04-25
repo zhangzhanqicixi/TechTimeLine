@@ -257,7 +257,7 @@ Slave | 192.168.1.78 | CPU: 2 cores RAM: 8G | `JDK: 1.8.0_181` `Scala: 2.10.6` `
         tar zxvf hadoop-2.7.6.tar.gz
         mv hadoop-2.7.6 /usr/local
         cd /usr/local/hadoop-2.7.6
-        mkdir /tmp /dfs /dfs/data /dfs/name
+        mkdir tmp dfs dfs/data dfs/name
         ```
 
         <div class="tip">
