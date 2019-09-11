@@ -21,9 +21,9 @@ if theme.disqus
         var disqus_url = '#{config.url}/#{page.path}';
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//blog.timeline229.com:5000/api/disqus?short_name=timeline229&path=embed';
-            //dsq.src = '//#{theme.disqus}.disqus.com/embed.js';
+            // dsq.src = '//blog.timeline229.com:5000/api/disqus?short_name=timeline229&path=embed';
+            dsq.src = '//#{theme.disqus}.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    script(id='dsq-count-scr' src='//blog.timeline229.com:5000/api/disqus?short_name=timeline229&path=count' async)
-    //script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
+    // script(id='dsq-count-scr' src='//blog.timeline229.com:5000/api/disqus?short_name=timeline229&path=count' async)
+    script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
