@@ -34,14 +34,14 @@ GBDT + LR 全称 Gradient Boosting Decision Tree + Logistic Regression，在业�
 
 ```
 /**
-    * ODPS 读分区表数据
-    * @param table
-    * @param project
-    * @param ds
-    * @param sc
-    * @return
-    */
-  def odpsReadPartition(table: String, project: String, ds: String, sc: SparkSession): DataFrameReader = {
+  * ODPS 读分区表数据
+  * @param table
+  * @param project
+  * @param ds
+  * @param sc
+  * @return
+  */
+ def odpsReadPartition(table: String, project: String, ds: String, sc: SparkSession): DataFrameReader = {
     sc.read.format("org.apache.spark.aliyun.odps.datasource")
       .option("odpsUrl", urls.head)
       .option("tunnelUrl", urls(1))
@@ -56,29 +56,29 @@ GBDT + LR 全称 Gradient Boosting Decision Tree + Logistic Regression，在业�
 对于 save 操作也是一样的
 
 ```
-/**
-    * ODPS 写分区表数据
-    * @param table
-    * @param project
-    * @param dataSet
-    * @param model
-    * @param ds
-    */
-  def odpsWritePartition(table: String, project: String, dataSet: Dataset[Row], model: String, ds: String) = {
-    /** model: append or overwrite **/
+ /**
+   * ODPS 写分区表数据
+   * @param table
+   * @param project
+   * @param dataSet
+   * @param model
+   * @param ds
+   */
+ def odpsWritePartition(table: String, project: String, dataSet: Dataset[Row], model: String, ds: String) = {
+ /** model: append or overwrite **/
 
-    dataSet.write.format("org.apache.spark.aliyun.odps.datasource")
-      .option("odpsUrl", urls.head)
-      .option("tunnelUrl", urls(1))
-      .option("table", table)
-      .option("project", project)
-      .option("accessKeyId", accessKeyId)
-      .option("accessKeySecret", accessKeySecret)
-      .option("partitionSpec", ds)
-      .option("allowCreateNewPartition", "true")
-      .mode(model)
-      .save()
-  }
+ dataSet.write.format("org.apache.spark.aliyun.odps.datasource")
+   .option("odpsUrl", urls.head)
+   .option("tunnelUrl", urls(1))
+   .option("table", table)
+   .option("project", project)
+   .option("accessKeyId", accessKeyId)
+   .option("accessKeySecret", accessKeySecret)
+   .option("partitionSpec", ds)
+   .option("allowCreateNewPartition", "true")
+   .mode(model)
+   .save()
+ }
 ```
 
 ##### FeatureEngineer
@@ -88,13 +88,12 @@ GBDT + LR 全称 Gradient Boosting Decision Tree + Logistic Regression，在业�
 其中 FeatureColumn 内，配置了需要分桶，Indexer，OneHot 的字段名及具体值，整体的代码可以当伪码来看。
 
 ```
-
 /**
-* userGbtFeatureFit 用户字段转特征 
-*
-* @param dataset
-* @return PipelineModel
-*/
+  * userGbtFeatureFit 用户字段转特征 
+  *
+  * @param dataset
+  * @return PipelineModel
+  */
 def userGbtFeatureFit(dataset: Dataset[Row]) = {
 
     val bucketColumn = FeatureColumn.userBucketColumn
@@ -148,11 +147,11 @@ GBDT 阶段，我们的目的是生成中间特征，而不是最终的结果。
 
 ```
 /**
-* getGBDTFeaturesModel 获得 GBDT 模型
-*
-* @param dataset
-* @return GradientBoostedTreesModel
-*/
+  * getGBDTFeaturesModel 获得 GBDT 模型
+  *
+  * @param dataset
+  * @return GradientBoostedTreesModel
+  */
 def getGBDTFeaturesModel(dataset: Dataset[_]) = {
 
     val categoricalFeatures: Map[Int, Int] =
@@ -182,12 +181,10 @@ def getGBDTFeaturesModel(dataset: Dataset[_]) = {
 将原始特征 和 gbtModel 给到 getGBTFeatures 方法中，就可以得到由 gbtModel 生成的特征，对此我们可以写一个 UDF 来对每行数据做转换，性能的瓶颈，我猜也是在这里了
 
 ```
-
 val addFeatureUDF = udf { features: Vector =>
     val gbtFeatures = getGBTFeatures(gbtModel, features)
     Vectors.dense(features.toArray ++ gbtFeatures.toArray)
 }
-
 ```
 
 ##### Logistic Regression
@@ -195,7 +192,6 @@ val addFeatureUDF = udf { features: Vector =>
 拿到 GBDT Features 之后，我们就可以把转换后的特征放到 LR 里做训练，接下来的流程，就和普通的 LR 流程一样了
 
 ```
-
 val logisticRegression = new LogisticRegression()
     .setRegParam($(regParam))
     .setElasticNetParam($(elasticNetParam))
@@ -212,7 +208,6 @@ val logisticRegression = new LogisticRegression()
     .setFeaturesCol($(gbtGeneratedFeaturesCol))
         
 lrModel = logisticRegression.fit(datasetWithGBDTFeatures)
-
 ```
 
 ##### evaluation
@@ -220,7 +215,6 @@ lrModel = logisticRegression.fit(datasetWithGBDTFeatures)
 对混合模型的评估，本质上就是对最终生成 LR 模型的评估，我们可以通过验证集拿到这个模型的准确率，召回率，AUC，ROC 等数据
 
 ```
-
 val testingEvaluate = gbtlrModel.evaluate(testingData)
 val auc = gbtlrModel.lrModel.binarySummary.areaUnderROC
 
@@ -228,7 +222,6 @@ println("model accuracy: " + testingEvaluate.binaryLogisticRegressionSummary.acc
 println("model recallByLabel: " + testingEvaluate.binaryLogisticRegressionSummary.recallByLabel.mkString(","))
 println("model precisionByLabel: " + testingEvaluate.binaryLogisticRegressionSummary.precisionByLabel.mkString(","))
 println("gbtlrModel.binarySummary.areaUnderROC: " + auc)
-
 ```
 
 ##### persistence
@@ -236,13 +229,11 @@ println("gbtlrModel.binarySummary.areaUnderROC: " + auc)
 在评估模型之后，我们要把模型持久化，这样才能在预测的时候用到，存放模型的方式都大同小异，我会存在本地的 hdfs 中，注意除了算法模型的保存，特征模型也需要保存
 
 ```
-
 val modelPath = "hdfs://master:9000/spark_model/" + appName + "/" + modelId
 gbtlrModel.save(modelPath)
 
 userFeaturesModel.save(modelPath + "/userFeatures")
 itemFeaturesModel.save(modelPath + "/itemFeatures")
-
 ```
 
 ##### summary
