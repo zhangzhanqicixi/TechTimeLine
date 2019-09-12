@@ -41,16 +41,16 @@ GBDT + LR 全称 Gradient Boosting Decision Tree + Logistic Regression，在业�
   * @param sc
   * @return
   */
- def odpsReadPartition(table: String, project: String, ds: String, sc: SparkSession): DataFrameReader = {
+def odpsReadPartition(table: String, project: String, ds: String, sc: SparkSession): DataFrameReader = {
     sc.read.format("org.apache.spark.aliyun.odps.datasource")
-      .option("odpsUrl", urls.head)
-      .option("tunnelUrl", urls(1))
-      .option("table", table)
-      .option("project", project)
-      .option("partitionSpec", ds)
-      .option("accessKeyId", accessKeyId)
-      .option("accessKeySecret", accessKeySecret)
-  }
+     .option("odpsUrl", urls.head)
+     .option("tunnelUrl", urls(1))
+     .option("table", table)
+     .option("project", project)
+     .option("partitionSpec", ds)
+     .option("accessKeyId", accessKeyId)
+     .option("accessKeySecret", accessKeySecret)
+}
 ```
 
 对于 save 操作也是一样的
