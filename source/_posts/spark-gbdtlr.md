@@ -135,8 +135,7 @@ def userGbtFeatureFit(dataset: Dataset[Row]) = {
     val pipeline = new Pipeline().setStages(Array(assemblerBucket, minMaxScaler) ++ indexers ++ Array(oneHotEncoderEstimator, assemblerVector))
     pipeline.fit(dataset)
 
-  }
-
+}
 ```
 
 ##### Gradient Boosting Decision Tree
