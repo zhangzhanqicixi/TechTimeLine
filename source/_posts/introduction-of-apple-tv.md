@@ -4,7 +4,7 @@ date: 2019-02-23 16:27:17
 tags:
 ---
 
-![cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/device.jpg)
+![cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/cooo.jpg)
 
 入手 Apple TV 也有一段时间了，基本搞清楚了这东西在中国使用的门道，写这篇文章的原因也是因为想在中国完整的和全面的体验 Apple TV，是需要有不少技术和金钱成本的。
 <!--more-->
@@ -13,7 +13,7 @@ tags:
 
 ![hdr](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/hdr.jpeg)
 
-Apple TV 其实和普通的电视盒子一样，都是用来浏览互联网上的资源的，只不过里面预装了 Apple 的 tvOS，所以从体验上来讲很有苹果的味道。
+Apple TV 其实和普通的电视盒子一样，都是可以用来浏览互联网上的资源，只不过里面预装了 Apple 的 tvOS，所以从体验上来讲很有苹果的味道。
 
 使用 Apple TV，完全不推荐使用中国大陆的 Apple ID，如果使用中国的 Apple ID，进入 Apple TV 之后会发现什么都没有，我长期使用美区的 Apple ID，资源相对来说是最全面。
 
