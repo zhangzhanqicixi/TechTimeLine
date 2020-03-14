@@ -63,8 +63,7 @@ import org.tensorflow.{SavedModelBundle, Tensor}
 val sparkConf = new SparkConf()
     .set("spark.serializer","org.apache.spark.serializer.KryoSerializer")
     .registerKryoClasses(Array(classOf[SavedModelBundle]))
-
-	...
+    ...
 ```
 
 - 分发模型文件
