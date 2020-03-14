@@ -1,5 +1,5 @@
 ---
-title: 【Spark 整合 TensorFlow】在 Spark 中使用 TensorFlow 模型预测
+title: 在 Spark 中使用 TensorFlow 模型预测
 date: 2020-03-14 22:39:40
 tags: 
 ---
