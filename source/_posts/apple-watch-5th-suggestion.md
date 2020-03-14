@@ -3,13 +3,13 @@ title: Apple Watch Series 5 购买建议
 date: 2019-10-12 23:56:00
 ---
 
-![apple-watch](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/applewatch-5th-suggest/WechatIMG55.jpeg)
-
 为什么要写这篇这么无聊的博客，不是想炫耀，是因为我在选择表款的时候，应该选择哪个版本还是纠结了一会儿，最后算了一笔账，选择了相对"性价比"较低的爱马仕版本，想给搜到这篇文章的你一个借鉴。毕竟你能点进来看这篇文章，大概率也是在纠结的。 >_<
 
 如果你跟我一样，没多少钱，但是可以负担得起一只小一万的表，那可以看看我算的账。
 
 <!--more-->
+
+![apple-watch](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/applewatch-5th-suggest/WechatIMG55.jpeg)
 
 ##### Apple Watch 版本
 
