@@ -4,12 +4,15 @@ date: 2019-02-23 16:27:17
 tags:
 ---
 
-![cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/cooo.jpg)
+入手 Apple TV 也有一段时间了，基本搞清楚了这东西在中国使用的门道，所以在此也想总结一下在中国如何可以完整的体验 Apple TV，这其中有不少技术和金钱成本。
 
-入手 Apple TV 也有一段时间了，基本搞清楚了这东西在中国使用的门道，写这篇文章的原因也是因为想在中国完整的和全面的体验 Apple TV，是需要有不少技术和金钱成本的。
 <!--more-->
 
+![cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/cooo.jpg)
+
 ##### Apple TV
+
+Apple TV 设置界面
 
 ![hdr](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/introduction-of-apple-tv/hdr.jpeg)
 
