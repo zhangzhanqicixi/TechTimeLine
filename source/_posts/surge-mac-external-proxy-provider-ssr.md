@@ -76,4 +76,4 @@ tags:
 
 第一次测速时由于分别要启动这几个 ss-local 进程，延迟会很大程度 delay，第二次开始后恢复正常延迟
 
-![testing](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/surge-external-proxy-provider/testing.png)
+![testing](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/surge-external-proxy-provider/surge-testing.png)
