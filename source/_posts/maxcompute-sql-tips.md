@@ -83,7 +83,9 @@ SET odps.stage.mapper.split.size=32;
     FROM A JOIN B
     ON A.key = B.key
     ;
+    
     ```
+    
     
     - **Join 空值** - 给空值随机数
 
@@ -92,7 +94,9 @@ SET odps.stage.mapper.split.size=32;
     FROM A JOIN B
     ON COALESCE(A.key, RAND() * 9999) = B.key
     ;
+    
     ```
+    
     
     - **Join 热点值**
     这部分主要要结合业务，大致的思路是：
@@ -101,6 +105,7 @@ SET odps.stage.mapper.split.size=32;
         3. 分别对热门值做维表 JOIN，对非热门值做维表 JOIN
         4. 两份数据 UNION ALL 合并
     
+    
     - **系统设置**
     
     ```
@@ -108,7 +113,9 @@ SET odps.stage.mapper.split.size=32;
     set odps.sql.skewjoin=true
     # 设置倾斜的 key 及对应的值
     set odps.sql.skewinfo=skewed_src:(skewed_key) [("skewed_value")]
+    
     ```
+    
 - Group By
     - **添加随机数，再做一次 group by**
     
