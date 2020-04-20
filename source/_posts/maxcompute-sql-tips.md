@@ -77,40 +77,19 @@ SET odps.stage.mapper.split.size=32;
 ##### 数据倾斜
 - Join
 
-    ###### **MapJoin** - 使用 MAPJOIN 缓存小表
+    - **MapJoin** - 使用 MAPJOIN 缓存小表
+    
     ```
     SELECT /*+ MAPJOIN(B) */ *
     FROM A JOIN B
     ON A.key = B.key
     ;
     ```
-    
-    ###### **Join 空值** - 给空值随机数
-    ```
-    SELECT *
-    FROM A JOIN B
-    ON COALESCE(A.key, RAND() * 9999) = B.key
-    ;
-    ```
-    
-    ###### **Join 热点值**
-    这部分主要要结合业务，大致的思路是：
-    1. 将热门（热点）值过滤过，放入临时表
-    2. 在全量数据中排除热门值，定义为非热门值
-    3. 分别对热门值做维表 JOIN，对非热门值做维表 JOIN
-    4. 两份数据 UNION ALL 合并
-    
-    ###### **系统设置**
-    ```
-    # odps 开启join倾斜功能
-    set odps.sql.skewjoin=true
-    # 设置倾斜的 key 及对应的值
-    set odps.sql.skewinfo=skewed_src:(skewed_key) [("skewed_value")]
-    ```
-    
+        
 - Group By
 
-    ###### **添加随机数，再做一次 group by**
+    - **添加随机数，再做一次 group by**
+    
     ```
     # 已知长尾 key 为 'long_tails'
     SELECT m.key, SUM(m.cnt) AS cnt
@@ -123,7 +102,8 @@ SET odps.stage.mapper.split.size=32;
     ;
     ```
     
-    ###### **系统设置**
+    - **系统设置**
+    
     ```
     # odps
     set odps.sql.groupby.skewindata=true
@@ -136,7 +116,8 @@ SET odps.stage.mapper.split.size=32;
     
 - Distinct
 
-    ###### 改成 Group By
+    - 改成 Group By
+    
     ```
     # 优化前
     SELECT COUNT(DISTINCT uid) AS uv
