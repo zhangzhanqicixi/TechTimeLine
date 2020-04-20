@@ -100,17 +100,14 @@ SET odps.stage.mapper.split.size=32;
         CASE WHEN key = 'long_tails' THEN HASH(RANDOM()) % 50 ELSE 0 END
     ) m GROUP BY m.key
     ;
-    
     ```
     
     **系统设置**
     
     ```
     # odps
-    set odps.sql.groupby.skewindata=true
-    ```
+    set odps.sql.groupby.skewindata=true;
     
-    ```
     # hive
     hive.groupby.skewindata=true;
     ```
@@ -124,9 +121,7 @@ SET odps.stage.mapper.split.size=32;
     SELECT COUNT(DISTINCT uid) AS uv
     FROM dual
     ;
-    ```
     
-    ```
     # 优化后
     SELECT COUNT(0) AS uv
     FROM (
