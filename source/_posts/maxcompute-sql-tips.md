@@ -104,7 +104,7 @@ ON COALESCE(A.key, RAND() * 9999) = B.key
 **系统设置**
 
 ```
-# odps 开启join倾斜功能
+# odps 开启 join 倾斜功能
 set odps.sql.skewjoin=true
 # 设置倾斜的 key 及对应的值
 set odps.sql.skewinfo=skewed_src:(skewed_key) [("skewed_value")]
