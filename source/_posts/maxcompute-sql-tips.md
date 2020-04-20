@@ -77,62 +77,61 @@ SET odps.stage.mapper.split.size=32;
 ##### 数据倾斜
 - Join
 
-    **MapJoin** - 使用 MAPJOIN 缓存小表
+**MapJoin** - 使用 MAPJOIN 缓存小表
     
-    ```
-    SELECT /*+ MAPJOIN(B) */ *
-    FROM A JOIN B
-    ON A.key = B.key
-    ;
-    ```
-        
+```
+SELECT /*+ MAPJOIN(B) */ *
+FROM A JOIN B
+ON A.key = B.key
+;
+```
 - Group By
 
-    **添加随机数，再做一次 group by**
+**添加随机数，再做一次 group by**
     
-    ```
-    # 已知长尾 key 为 'long_tails'
-    SELECT m.key, SUM(m.cnt) AS cnt
-    FROM (
-        SELECT key, COUNT(0) AS cnt
-        FROM dual
-        GROUP BY key,
-        CASE WHEN key = 'long_tails' THEN HASH(RANDOM()) % 50 ELSE 0 END
-    ) m GROUP BY m.key
-    ;
-    ```
+```
+# 已知长尾 key 为 'long_tails'
+SELECT m.key, SUM(m.cnt) AS cnt
+FROM (
+    SELECT key, COUNT(0) AS cnt
+    FROM dual
+    GROUP BY key,
+    CASE WHEN key = 'long_tails' THEN HASH(RANDOM()) % 50 ELSE 0 END
+) m GROUP BY m.key
+;
+```
     
-    **系统设置**
+**系统设置**
     
-    ```
-    # odps
-    set odps.sql.groupby.skewindata=true;
+```
+# odps
+set odps.sql.groupby.skewindata=true;
     
-    # hive
-    hive.groupby.skewindata=true;
-    ```
+# hive
+hive.groupby.skewindata=true;
+```
     
 - Distinct
 
-    1. 改成 Group By
+**改成 Group By**
     
-    ```
-    # 优化前
-    SELECT COUNT(DISTINCT uid) AS uv
+```
+# 优化前
+SELECT COUNT(DISTINCT uid) AS uv
+FROM dual
+;
+    
+# 优化后
+SELECT COUNT(0) AS uv
+FROM (
+    SELECT uid
     FROM dual
-    ;
+    GROUP BY uid
+) m
+;
+```
     
-    # 优化后
-    SELECT COUNT(0) AS uv
-    FROM (
-        SELECT uid
-        FROM dual
-        GROUP BY uid
-    ) m
-    ;
-    ```
-    
-    优化后的代码转换成了 group by 形式，可以利用 group by 解决长尾的方式优化
+优化后的代码转换成了 group by 形式，可以利用 group by 解决长尾的方式优化
 
 ##### SEMI & ANTI
 
