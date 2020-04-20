@@ -6,9 +6,9 @@ tags:
 
 > 结合 TensorFlow 在深度学习及传统机器学习上的优势，加上 Spark 在分布式及计算上的优势，实现 Spark 预测 TensorFlow 模型的方案
 
-说白了也没有那么玄乎，TensorFlow 官方提供了 Java API，支持 Java 应用调用 TensorFlow 各个接口，缺点是没有 Python API 那么全面。
+TensorFlow 本身是 Python 下的框架，但官方也提供了 Java API，支持 Java 应用调用 TensorFlow 各个接口，只是没有 Python API 那么全面。
 
-那么作为 Java 的亲儿子 Scala，两者最终都是编译成 Class 在 JVM 上运营，用其开发的 Spark 应用也自然支持所有 Java 自带的 API 及第三方 API，我们只需要把 TensorFlow Java API 引入 Scala 项目中，就可以调用到了。
+那么作为 Java 的亲儿子 Scala，两者最终都是编译成 Class 在 JVM 上运行，用其开发的 Spark 应用也自然支持所有 Java 自带的 API 及第三方 API，我们只需要把 TensorFlow Java API 引入 Scala 项目中，就可以调用到了。
 
 <!--more-->
 

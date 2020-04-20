@@ -1,12 +1,14 @@
 ---
 title: MaxCompute SQL 几个优化 Tips
-date: 2020-02-28 22:39:40
+date: 2020-04-20 15:36:40
 tags: 
 ---
 
 ![sql](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/maxcompute_sql_tips/max-compute-sql-tips.png)
 
 由于平常的工作学习中基本都是在阿里云上开发，Hive 接触的比较少，所以这次总结也主要是针对在 MaxCompute SQL 上的优化，本质上一些语法都是大同小异
+
+<!--more-->
 
 ##### 列名快速选择 - SELECT 正则表达式
 
