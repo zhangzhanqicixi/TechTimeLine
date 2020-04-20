@@ -41,7 +41,8 @@ tags:
 ss-local -c config.json
 ```
 
-一般在 ShadowSocks App 内的 Resources 文件夹下有该文件，或者可以去 Github下载 [https://github.com/shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
+一般在 ShadowSocks App 内的 Resources 文件夹下有该文件，或者可以去 Github下载
+[https://github.com/shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
 
 ```
 /Applications/ShadowsocksX-NG-R8.app/Contents/Resources/ss-local
@@ -55,7 +56,8 @@ tags:
 - 一定要写 local_port
 - args = "-c" 一定要写在 args "xxx.json" 路径之前
 
-作者写的的文档链接 [https://medium.com/@Blankwonder/surge-mac-new-features-external-proxy-provider-375e0e9ea660](https://medium.com/@Blankwonder/surge-mac-new-features-external-proxy-provider-375e0e9ea660)
+作者的文档链接
+[https://medium.com/@Blankwonder/surge-mac-new-features-external-proxy-provider-375e0e9ea660](https://medium.com/@Blankwonder/surge-mac-new-features-external-proxy-provider-375e0e9ea660)
 
 ```
 ...
@@ -69,6 +71,8 @@ tags:
 
 ...
 ```
+
+##### 测速延迟
 
 第一次测速时由于分别要启动这几个 ss-local 进程，延迟会很大程度 delay，第二次开始后恢复正常延迟
 
