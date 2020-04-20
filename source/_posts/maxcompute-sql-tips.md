@@ -77,7 +77,7 @@ SET odps.stage.mapper.split.size=32;
 ##### 数据倾斜
 - Join
 
-    1. **MapJoin** - 使用 MAPJOIN 缓存小表
+    **MapJoin** - 使用 MAPJOIN 缓存小表
     
     ```
     SELECT /*+ MAPJOIN(B) */ *
@@ -88,7 +88,7 @@ SET odps.stage.mapper.split.size=32;
         
 - Group By
 
-    1. **添加随机数，再做一次 group by**
+    **添加随机数，再做一次 group by**
     
     ```
     # 已知长尾 key 为 'long_tails'
@@ -100,9 +100,10 @@ SET odps.stage.mapper.split.size=32;
         CASE WHEN key = 'long_tails' THEN HASH(RANDOM()) % 50 ELSE 0 END
     ) m GROUP BY m.key
     ;
+    
     ```
     
-    2. **系统设置**
+    **系统设置**
     
     ```
     # odps
