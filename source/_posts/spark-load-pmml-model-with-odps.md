@@ -1,5 +1,5 @@
 ---
-title: Spark 加载 Max Compute(ODPS) 数据并 load PMML 模型
+title: Spark 集成阿里云 MaxCompute 并装配 PMML 格式模型
 date: 2018-09-29 21:14:28
 tags: 
 ---

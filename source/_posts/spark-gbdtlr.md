@@ -1,5 +1,5 @@
 ---
-title: Spark 机器学习之 GBDT + LR 实现逻辑
+title: Spark Machine Learning 之 GBDT+LR 代码逻辑
 date: 2019-09-11 16:25:50
 ---
 

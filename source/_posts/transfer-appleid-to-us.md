@@ -1,5 +1,5 @@
 ---
-title: 将中国区 Apple ID 转到美区及绑定 PayPal
+title: 将中国区 Apple ID 转到美国区及绑定 PayPal
 date: 2018-08-11 14:38:16
 tags:
 ---

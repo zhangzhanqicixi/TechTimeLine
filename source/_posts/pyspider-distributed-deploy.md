@@ -1,5 +1,5 @@
 ---
-title: 最直观的 pyspider 分布式爬虫部署
+title: 基于 pyspider 搭建分布式集群爬虫流程
 date: 2018-07-26 13:55:48
 tags: tech
 desc: pyspider 分布式多实例部署教程

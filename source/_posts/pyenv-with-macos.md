@@ -1,5 +1,5 @@
 ---
-title: macOS 下的 Python 多环境共存
+title: 基于 pyenv 在 macOS 下管理多个 Python 版本
 date: 2018-5-26 14:49:13
 desc: 文章主要介绍 pyenv 和 pyenv-virtualenv 的安装与使用
 ---

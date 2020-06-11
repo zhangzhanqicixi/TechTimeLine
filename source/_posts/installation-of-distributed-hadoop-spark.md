@@ -1,5 +1,5 @@
 ---
-title: Hadoop2.6 与 Spark1.5 分布式安装部署
+title: Hadoop2.6 与 Spark1.5 的分布式集群部署流程
 date: 2018-09-04 21:00:54
 tags:
 ---

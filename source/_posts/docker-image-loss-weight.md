@@ -1,5 +1,5 @@
 ---
-title: 几个给 Docker 镜像瘦身的小技巧
+title: 给 Docker 镜像瘦身的几个 Tips
 date: 2019-01-25 20:00:17
 tags:
 ---

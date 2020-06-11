@@ -1,5 +1,5 @@
 ---
-title: 在 Spark 中使用 TensorFlow 模型预测
+title: Spark Machine Learning 之集成 TensorFlow 模型并实现离线预测
 date: 2020-02-28 22:39:40
 tags: 
 ---

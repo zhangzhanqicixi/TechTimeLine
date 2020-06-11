@@ -1,6 +1,6 @@
 ---
 layout: hexo
-title: 基于 Docker Hexo 博客搭建
+title: 基于 Hexo & Docker 的博客搭建流程
 date: 2018-7-22 22:52:07
 desc: 搭建这个 Blog 用到的技术其实都很大众且成熟的，基本都是可以直接拿来用的。
 ---

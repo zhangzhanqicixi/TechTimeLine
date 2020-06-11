@@ -1,5 +1,5 @@
 ---
-title: MaxCompute SQL 几个优化 Tips
+title: 优化 MaxCompute SQL 的几个 Tips
 date: 2020-04-20 15:36:40
 tags: 
 ---
