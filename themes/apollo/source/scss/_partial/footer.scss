@@ -3,9 +3,11 @@
     text-align: center;
     .prev_post {
         float: left;
+        margin-left: 1em;
     }
     .next_post {
         float: right;
+        margin-right: 1em;
     }
     .next, .prev, .next_post, .prev_post {
         display: inline-block;
