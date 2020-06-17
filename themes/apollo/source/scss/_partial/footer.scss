@@ -1,11 +1,11 @@
 .paginator {
     margin: 2em auto;
     text-align: center;
-    .prev_post {
+    .prev_post, .prev {
         float: left;
         margin-left: 1em;
     }
-    .next_post {
+    .next_post, .next {
         float: right;
         margin-right: 1em;
     }
