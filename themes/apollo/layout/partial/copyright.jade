@@ -1,11 +1,4 @@
-script.
-    (function () {
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+
 
 
 .copyright
@@ -13,6 +6,7 @@ script.
     - var apolloURL = "https://github.com/pinggod/hexo-theme-apollo";
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
-    - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
-    p © #{year} #[a(href=config.url)!= config.author], powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=apolloURL, target="_blank") hexo-theme-apollo].
-    p #[span(id="busuanzi_container_site_pv") pv : #[span(id="busuanzi_value_site_pv")]] ∩ #[span(id="busuanzi_container_site_uv") uv : #[span(id="busuanzi_value_site_uv")]]
+    - year = year == theme.startyear ? year : theme.startyear + '﹣' + year;
+        - get
+
+    p © #{year} #[a(href=config.url)!= config.author]. Powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=apolloURL, target="_blank") hexo-theme-apollo]

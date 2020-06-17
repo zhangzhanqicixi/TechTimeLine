@@ -1,6 +1,6 @@
-prev: PREV
-next: NEXT
-prev_post: PREV
-next_post: NEXT
-more: ...more
+prev: < Pre
+next: Next >
+prev_post: < Pre Post
+next_post: Next Post>
+more: more >
 translated: Translation · Original Link

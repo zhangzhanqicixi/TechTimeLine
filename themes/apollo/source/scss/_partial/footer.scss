@@ -1,17 +1,20 @@
 .paginator {
-    margin: 4em 0;
+    margin: 4em auto;
     text-align: center;
-    .prev, .next {
+    .prev_post {
+        float: left;
+    }
+    .next_post {
+        float: right;
+    }
+
+    .next, .prev, .next_post, .prev_post {
         display: inline-block;
-        margin: 0 4px;
-        padding: 4px 12px;
-        border-radius: 4px;
-        border-bottom: 4px solid #3aa373;
-        font-size: 14px;
-        color: #fff;
-        background-color: #4fc08d;
+        margin: 10px 4px;
+        font-size: 15px;
+        color: #0070c9;
         &:hover {
-            background-color: #22bd77;
+            border-bottom: 1.3px solid #0070c9;
         }
     }
 }

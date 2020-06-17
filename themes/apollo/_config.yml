@@ -1,9 +1,9 @@
 menu:
-    Blog: /
+    Home: /
     Archive: /archives/
-    Twitter: https://twitter.com/moo_less
-    GitHub: https://github.com/zhangzhanqicixi
-    About: /about
+    # Twitter: https://twitter.com/moo_less
+    # GitHub: https://github.com/zhangzhanqicixi
+    About Me: /about/
     Rss: /atom.xml
     # donation: /atom.xml
 
@@ -21,3 +21,4 @@ disqus: timeline229
 
 # Copyright Infomation
 startyear: 2018
+

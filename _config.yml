@@ -7,7 +7,7 @@ title: TIMELINE229
 subtitle: A programmer focus on Recommanded System
 description: Tech blog mainly
 keywords:
-author: ZHANQI.ZHANG
+author: Chan'chi.Chang
 language: us-EN
 timezone: Asia/Shanghai
 
@@ -96,3 +96,6 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+server:
+  compress: true

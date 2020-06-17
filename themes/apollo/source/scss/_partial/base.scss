@@ -1,6 +1,6 @@
 ::selection {
     color: #FFFFFF;
-    background-color: #42b983;
+    background-color: #0070c9;
 }
 
 html, body {
@@ -14,7 +14,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     background-color: #fff;
-    font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: -apple-system, "Roboto", "Segoe UI", "Helvetica Neue", "Helvetica Neue", "Lucida Grande", "Arial", "sans-serif";
 }
 
 ul.nav,
@@ -36,7 +36,8 @@ a, a:active {
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-    border-bottom: 2px solid #42b983;
+    border-bottom: 2px solid #0070c9;
+    color: #393D41;
 }
 
 hr {
@@ -46,7 +47,7 @@ hr {
 code {
     margin: 0 2px;
     padding: 3px 5px;
-    color: #e96900;
+    color: #0070c9;
     border-radius: 2px;
     white-space: inherit;
 }

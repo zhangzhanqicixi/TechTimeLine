@@ -16,10 +16,15 @@ header {
 
     .nav-list-item {
         display: inline-block;
-        padding: 19px  10px ;
+        padding: 20px  15px ;
         a {
             font-size: 16px;
             line-height: 1.4;
+            font-weight: bold;
+            color: #939B9C;
+            &:hover {
+                color: #393D41;
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
+        - var page_visitor =
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
 

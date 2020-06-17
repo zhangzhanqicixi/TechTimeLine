@@ -12,6 +12,6 @@ mixin post()
     - var next = page.next ? page.next.path : false; 
     .paginator
         if prev
-            a.prev(href=url_for(prev))!= __('prev_post')
+            a.prev_post(href=url_for(prev))!= __('prev_post')
         if next
-            a.next(href=url_for(next))!= __('next_post')
+            a.next_post(href=url_for(next))!= __('next_post')

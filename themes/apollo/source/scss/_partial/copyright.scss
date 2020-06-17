@@ -1,9 +1,21 @@
 footer {
-    padding-bottom: 1px;
-    .copyright {
-        margin: 4em 0;
-        border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+
+    .busuanzi {
         text-align: center;
+        margin: 4em 4em 0 4em;
+        letter-spacing: 0.9px;
+        p, a {
+            color: #aaa;
+            font-size: 14px;
+            font-weight: 100;
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        margin: 0 4em 4em 4em;
+        letter-spacing: 1px;
         p, a {
             color: #aaa;
             font-size: 14px;
@@ -13,4 +25,5 @@ footer {
             color: #888;
         }
     }
+
 }

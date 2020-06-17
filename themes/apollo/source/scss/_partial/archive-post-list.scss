@@ -1,8 +1,13 @@
 .archive {
-    max-width: 500px;
-    margin: 5em auto;
+    max-width: 1000px;
+    margin: 2em auto;
+    .archive-year {
+        font-size: 23px;
+        color: #939B9C;
+    }
     .post-item {
-        padding: 2px 0 0 50px;
+        padding: 2px 0 5px 0;
+        position: relative;
     }
     .post-time,
     .post-title-link {
@@ -11,16 +16,21 @@
     .post-title-link {
         display: block;
         margin-left: 125px;
-        color: #42b983;
+        color: #393D41;
         word-break: break-all;
+        font-weight: 500;
         &:hover {
-            border-bottom: 0;
-            color: #267B54;
+            border-bottom: 2px;
+            color: #0070c9;
         }
     }
     .post-info {
+        display: block;
         float: left;
-        width: 125px;
-        color: #7f8c8d;
+        width: 100px;
+        color: #939C9D;
+        word-break: break-all;
+        position: absolute;
+        top: 15%;
     }
 }
