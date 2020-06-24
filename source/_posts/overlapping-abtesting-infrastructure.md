@@ -6,10 +6,10 @@ tags:
 
 在算法开发中必然会有 A/B 测试，通常可以简单的根据用户 ID 或 Cookie 去切割流量，实现让不同的用户走不同的算法，最后回溯数据评估效果。随着业务越来越多，通过该方案单纯的切割流量进行测试，会造成流量饥饿与流量偏置等问题。本文章记录一下 A/B Testing 中比较流行的多层重叠方案。
 
-<!--more-->
 
 ##### 单层 A/B Testing
 ![single-layer](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/overlapping-abtesting-infrastructure/FA742619-6B7F-4646-B2FE-12DA9EBCB0B9.png)
+<!--more-->
 单层的 A/B 测试方案比较简单，有几个实验，就切分几份流量，比如现在线上需要同时测试排序模块的算法 A和B，推荐模块的算法 A和B，我们就可以把流量分切成 4 份，每份都有 25% 的流量，但这样做会造成两个重要的问题：
 -  **流量饥饿**
 如果流量本身基数不大，25% 的流量不足以有足够的置信度来评估算法，通常就需要加大流量来提高测试的置信度，但一组实验流量加大，必然会造成其他组实验无法得到充足的流量，造成流量饥饿。
@@ -69,4 +69,4 @@ def get_bucket_no(account, bucket_pi, layer_bucket_cnt):
 ##### reference
 
 1. [Overlapping Experiment Infrastructure](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36500.pdf)
-2. [你的AB测试平台和方案，真的可靠么？](https://uxren.cn/?p=58841)
+2. [你的 AB 测试平台和方案，真的可靠么？](https://uxren.cn/?p=58841)
