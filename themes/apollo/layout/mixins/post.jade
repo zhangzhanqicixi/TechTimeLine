@@ -1,6 +1,6 @@
-mixin postInfo(item)
+mixin postInfo(item, _format)
     .post-info
-        != full_date(item.date, 'll')
+        != full_date(item.date, _format)
         - var page_visitor =
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
@@ -15,7 +15,7 @@ mixin posts()
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
-                    +postInfo(item)
+                    +postInfo(item, 'll')
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
@@ -33,7 +33,7 @@ mixin postList()
             if change 
                 h2.archive-year!= year
             .post-item
-                +postInfo(item)
+                +postInfo(item, 'MMM DD')
                 a.post-title-link(href= url_for(item.path))
                     != item.title
         - })
@@ -44,6 +44,6 @@ mixin post(item)
         article.post-block
             h1.post-title
                 != item.title
-            +postInfo(item)
+            +postInfo(item, 'll')
             .post-content
                 != item.content

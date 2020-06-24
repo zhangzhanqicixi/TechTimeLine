@@ -26,7 +26,7 @@ tags:
 ##### 多层重叠 A/B Testing
 ![muti-layer](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/overlapping-abtesting-infrastructure/B523EA6B-5B94-413F-86ED-99D22402FD5D.png)
  **流量域、流量层、流量桶**
-该方案最早由 Google 在 2010 年 KDD 上公布，如上图所示，将整个实验空间进行横向和纵向划分。纵向上，我们定义「域 Domain」 的概念，流量线进行 Domain 域的判断，进入不同的 Domain 域中；横向上，我们定义「层 Layer」的概念，在同一层中进行一类的实验，每类实验根据实验数量不同，又可以切分成 N 个「桶 Bucket」，*流量在每个层都会被重新打散*。
+该方案最早由 Google 在 2010 年 KDD 上公布，如上图所示，将整个实验空间进行横向和纵向划分。纵向上，我们定义「域 Domain」 的概念，流量线进行 Domain 域的判断，进入不同的 Domain 域中；横向上，我们定义「层 Layer」的概念，在同一层中进行一类的实验，每类实验根据实验数量不同，又可以切分成 N 个「桶 Bucket」，**流量在每个层都会被重新打散**。
 
 比如在上图中，「实验1A」、「实验1B」、「实验3B」… 就是一个个流量「桶 Bucket」；「实验 2A」 + 「实验 2B」 组成一个 「流量层 Layer」，我一般也称为「实验组」；最外层的「实验组1-4」或 「独立流量域」 组成一个大的 「域 Domain」。
 
@@ -52,7 +52,7 @@ def get_bucket_no(account, bucket_pi, layer_bucket_cnt):
     return hash(account / bucket_pi) % layer_bucket_cnt
 ```
 
-下图展示了 Google 的论文中判断用户进入域，层，桶的判断罗技
+下图展示了 Google 的论文中判断用户进入域，层，桶的判断逻辑
 ![google-infrastructure](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/overlapping-abtesting-infrastructure/76F5BDB9-5148-488C-A132-B897FA42DBD1.png)
 
 ##### 总结
@@ -61,12 +61,12 @@ def get_bucket_no(account, bucket_pi, layer_bucket_cnt):
 - 横向分层，流量重叠
 每层都有 100% 的流量
 分割流量策略可以不同
-分层策略可以不同（可以是算法对照组，可以是运营策略对照组）
+分层策略可以不同（可以是算法对照组，可以R是运营策略对照组）
 - 纵向分流，流量分配
 流量可以进入不同域
 流量切割分配函数
 
-##### reference
+##### Reference
 
 1. [Overlapping Experiment Infrastructure](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36500.pdf)
 2. [你的 AB 测试平台和方案，真的可靠么？](https://uxren.cn/?p=58841)
