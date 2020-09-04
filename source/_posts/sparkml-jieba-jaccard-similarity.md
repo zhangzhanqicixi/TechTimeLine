@@ -175,3 +175,9 @@ simiDistance.show(false)
 ```
 
 至此我们在 Spark ML 包中，利用 Jieba + Jarrcard 系数计算得出了一组文本集中的相似度。
+
+##### Reference
+
+[在Spark上基于Minhash计算jaccard相似度](https://codeleading.com/article/66234289394/)
+[Extracting, transforming and selecting features](https://spark.apache.org/docs/3.0.0/ml-features.html#minhash-for-jaccard-distance)
+[Locality-Sensitive Hashing, LSH](https://zhuanlan.zhihu.com/p/108181478)
