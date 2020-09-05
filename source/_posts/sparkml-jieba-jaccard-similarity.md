@@ -12,7 +12,7 @@ tags:
 
 ![process](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/sparkml-jieba-jaccard-similarity/process.png)
 
-> 另外，用 Spark 做特征工程时，推荐可以先看下下面的文档
+> 用 Spark 做特征工程时，推荐可以先看下下面的文档
 [Extracting, transforming and selecting features - Spark 2.3.1 Documentation](https://spark.apache.org/docs/2.3.1/ml-features.html)
 
 <!--more-->
