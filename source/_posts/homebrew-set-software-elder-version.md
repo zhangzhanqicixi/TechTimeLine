@@ -90,8 +90,20 @@ Warning: Calling Installation of apache-flink from a GitHub commit URL is deprec
 ######################################################################## 100.0%
 Warning: apache-flink 1.11.1 is available and more recent than version 1.9.0.
 🍺  /usr/local/Cellar/apache-flink/1.9.0: 161 files, 276.9MB, built in 4 seconds
-Removing: /Users/zhangzhanqi/Library/Caches/Homebrew/apache-flink--1.9.0.tgz... (243.4MB)
+Removing: /Users/Library/Caches/Homebrew/apache-flink--1.9.0.tgz... (243.4MB)
 ```
+
+这里再介绍另外一种安装方法，得到 id 后，进入 homebrew-core 项目的根目录，checkout id 对应的分支，然后进入 Formula 文件夹，通过 `brew install *.rb`，也是可行的。
+
+```
+➜  homebrew-core git:(master) git checkout 1cfab9bd5691406e475341014b8cd52dc0b351c8
+homebrew-core git:(1cfab9bd56) cd Formula
+➜  Formula git:(1cfab9bd56) brew install apache-flink.rb                       
+==> Downloading https://archive.apache.org/dist/flink/flink-1.9.0/flink-1.9.0-bin-scala_2.11.tgz
+Warning: apache-flink 1.11.1 is available and more recent than version 1.9.0.
+🍺  /usr/local/Cellar/apache-flink/1.9.0: 161 files, 276.9MB, built in 3 seconds
+Removing: /Users/Library/Caches/Homebrew/apache-flink--1.9.0.tgz... (243.4MB)
+``` 
 
 ##### 禁止更新
 如果不打算更新，可以使用 `brew pin apache-flink` 来固定 flink 的版本，避免 `brew upgrade` 时自动升级
