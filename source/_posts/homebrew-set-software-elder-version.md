@@ -1,5 +1,5 @@
 ---
-title: Homebrew 指定版本 - Homebrew Install Specify Version
+title: Homebrew 指定版本安装 - Homebrew Install Specify Version
 date: 2020-05-12 23:40:39
 tags:
 ---
