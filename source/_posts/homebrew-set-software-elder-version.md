@@ -1,10 +1,11 @@
 ---
-title: Mac Homebrew 如何指定版本安装
-date: 2020-05-01 23:40:39
+title: Homebrew 指定版本 - Homebrew Install Specify Version
+date: 2020-05-12 23:40:39
 tags:
 ---
 
-![homebrew](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/homebrew-set-software-elder-version/homebrew.png)
+![homebrew](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/homebrew-set-software-elder-version/homebrew-elder.png)
+
 
 Homebrew 默认只安装最新版本的软件，如何制定版本？下面以安装 `brew install apache-flink` 为例，指定安装特定版本的 Flink。
 
@@ -81,6 +82,7 @@ Date:   Thu Apr 11 19:37:03 2019 +0200
 ##### 安装指定版本 
 
 根据上面的 id，即可安装对应的软件版本
+
 ```
 ➜  ~ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/1cfab9bd5691406e475341014b8cd52dc0b351c8/Formula/apache-flink.rb
 Updating Homebrew...
@@ -91,9 +93,10 @@ Warning: Calling Installation of apache-flink from a GitHub commit URL is deprec
 Warning: apache-flink 1.11.1 is available and more recent than version 1.9.0.
 🍺  /usr/local/Cellar/apache-flink/1.9.0: 161 files, 276.9MB, built in 4 seconds
 Removing: /Users/Library/Caches/Homebrew/apache-flink--1.9.0.tgz... (243.4MB)
+
 ```
 
-这里再介绍另外一种安装方法，得到 id 后，进入 homebrew-core 项目的根目录，checkout id 对应的分支，然后进入 Formula 文件夹，通过 `brew install *.rb`，也是可行的。
+这里再介绍另外一种安装方法，得到 id 后，进入 homebrew-core 项目的根目录，checkout id 对应的分支，然后进入 Formula 文件夹，通过 `brew install *.rb` 也是可行的。
 
 ```
 ➜  homebrew-core git:(master) git checkout 1cfab9bd5691406e475341014b8cd52dc0b351c8
@@ -103,7 +106,9 @@ homebrew-core git:(1cfab9bd56) cd Formula
 Warning: apache-flink 1.11.1 is available and more recent than version 1.9.0.
 🍺  /usr/local/Cellar/apache-flink/1.9.0: 161 files, 276.9MB, built in 3 seconds
 Removing: /Users/Library/Caches/Homebrew/apache-flink--1.9.0.tgz... (243.4MB)
-``` 
+
+```
+
 
 ##### 禁止更新
 如果不打算更新，可以使用 `brew pin apache-flink` 来固定 flink 的版本，避免 `brew upgrade` 时自动升级
