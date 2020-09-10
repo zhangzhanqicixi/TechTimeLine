@@ -1,12 +1,14 @@
 ---
-title: 最有性价比的 YouTube Premium 订阅方案
+title: 选择最有性价比的 YouTube Premium 订阅计划
 date: 2020-07-17 14:59:39
 tags:
 ---
 
-![china](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtube-china2.jpg)
-
 订阅了 Youtube Premium，和 [Netflix](https://blog.timeline229.com/tutorial-of-visit-netflix-in-china/) 一样，Youtube Premium 在每个国家地区的定价差异性较大，本文记录最具性价比的 Youtube Premium 订阅方案。
+
+> Youtube Premium 未在中国推出。想了想，这是句废话
+
+![china](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtubechina3.jpg)
 
 ##### YouTube Premium
 YouTube Premium 提供了几大特性
