@@ -22,7 +22,7 @@ YouTube Premium 提供了几大特性
 
 <!--more-->
 
-![benefits](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/benefits.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/benefits.png" width = "350" height = "300" alt="benefits" align="center" />
 
 ##### 价格对比
 - YouTube Premium 在各个国家地区订阅金额的差异还是挺大的，对比下来在印度区的价格最便宜，折合人民币个人账号每月仅 12 元，而家庭账号可以同时支持 6 人的则更具性价比，只需要 20 元每月。（汇率统计来自 2020 年 7 月 17 日）
@@ -39,24 +39,21 @@ YouTube Premium 提供了几大特性
 ##### 订阅过程
 - 登陆 [YouTube Premium](https://www.youtube.com/premium)，服务器会根据你访问的 IP 段来判断你属于哪个地区，并且给出该地区对应的定价。如上面说的，我们选择印度区的代理，选择要个人订阅还是家庭订阅。
 
-
-![in1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtube_premium_india.jpg)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtube_premium_india.jpg" width = "480" height = "300" alt="in1" align="center" />
 
 
 - 我选择了家庭订阅计划，进入页面确认付费，不得不再次感叹阿三人民的生活水平真低啊，学生价格竟然只要 79 卢比，折合人民币 7 块钱。
 
-
-![in2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtubein2.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtubein2.png" width = "240" height = "300" alt="in2" align="center" />
 
 
 - 继续进入后，系统会要求你填写一张信用卡，YouTube 对信用卡的地区限制并不严格，我用国内的 Master 卡可顺利注册并付费。
 
-
-![in3](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/googlecredit.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/googlecredit.png" width = "240" height = "300" alt="in3" align="center" />
 
 
 - 添加完成后，信用卡会收到一笔 1 美元的扣费并退款，用来验证信用卡的有效性。完成后可以使用会员服务并管理你的家庭账号啦。
 
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtubepremium.png" width = "460" height = "300" alt="in4" align="center" />
 
-![in4](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/youtube-premium-subscribe-3/youtubepremium.png)
 
