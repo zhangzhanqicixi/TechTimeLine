@@ -28,7 +28,7 @@ vim /usr/local/etc/kafka/server.properties
 
 ##### 启动 Zookeeper
 ```
-/usr/local/etc/kafka/zookeeper.properties
+zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
 ```
 
 ##### 启动 Kafka Server
