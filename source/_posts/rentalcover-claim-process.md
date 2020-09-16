@@ -41,7 +41,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 
 唯一的缺点就是出险了理赔麻烦（要不然我也不记录这篇博客了），因为要自己先行垫付。
 
-![total-insurace](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/total-insurance.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/total-insurance.png" width = "490" height = "300" alt="total-insurace" align=center />
 
 实际给车的是一家名叫「Joyrent」的租车公司。就在米兰中央车站附近，从到店到提车一切都还挺顺利，工作人员态度也不错，最后没有换其他车，给的就是网上预订的欧宝旅行车，大概开了 4 万公里，柴油车，车况整体来说很不错。
 
@@ -54,9 +54,11 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 
 那么取车的时候就需要把车倒出来，由于没有倒车雷达，我过分地关注了我的右后方，为了避免擦到右侧的车子，就把方向盘向右打死开始倒车了。那时候我脑子里完全没有左侧还有一根柱子的记忆（我以为我的左侧是没有东西的），结果嘭一声，左侧后视镜就装上了柱子，当场碎掉了。
 
+
 <video id="video" controls="" preload="none" poster="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/break-video-cover.png">
-      <source id="mp4" src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/IMG_2389.mp4" type="video/mp4">
-    </video>
+<source id="mp4" src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/IMG_2389.mp4" type="video/mp4">
+</video>    
+    
 
 ##### 损伤情况
 - 左侧后视镜完全掉落，只能看见内部的连线
@@ -75,15 +77,16 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 
 那天刚好 12月31号，是西方的新年，车行员工发现我们的车 damage 了，态度还不错，还对我们说了 sorry for damage（emmm，现在想想是废话，又不是他们自己的车）。然后看了一眼车，判定需要换一整只后视镜，费用 300 EUR，外加 50 EUR 的 damage fee，和 77 EUR 的税；心里虽然想吐槽这垃圾欧宝的后视镜我自己在伟大的淘宝买个全新的，最多 1000 人民币，但没办法，谁叫我不在伟大的祖国呢。最后信用卡刷了我 427 EUR 就走人了。
 
-![invoice-photo](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/photo-invoice.jpg)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/photo-invoice.jpg" width = "490" height = "600" alt="invoice-photo" align=center />
+
 
 ##### 开始索赔
 
 - 第一次提交材料
 
     当晚我就开始了 RentalCover 的索赔路程，用你当时投保的 email 和 预订编号 (以-INS结尾) 后，就进入索赔页面，按照他的页面提示，上传对应的文件就行了
-    
-![online](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg)
+
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg" width = "360" height = "640" alt="online" align=center />
 
 - 第二题提交材料
 
@@ -92,11 +95,11 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     2. A receipt from the service provider who repaired the damages OR a copy of the pricing table (some EU rental companies use a table like this to calculate the damage cost).（对于损坏的部位支付的收据）
     3. A signed rental agreement that reflects the excess amount.（租车协议，反映超额金额）
 
-![reply1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply1.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply1.png" width = "360" height = "640" alt="reply1" align=center />
 
 
 很认真的开始准备材料，除了他上面需要的材料，我还准备了：意大利大使馆认证驾照，事故报告，出事故时候的车辆照片
-    
+
 ![commit1](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/commit1.png)
     
 - 第三次提交材料
@@ -107,7 +110,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     
     为此我还特地 Google 查了下 Invoice 和 Receipt 的区别，发现 Invoice 是发票的意思，Receipt 才是收据的意思。经过这件事，我一定不会乱用这两个单词了。。
     
-![reply2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png)
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png" width = "440" height = "640" alt="reply2" align=center />
     
 
 所以我什么都没干，把文件重命名了下，改成了「receipt-of-repair-cost.pdf」的文件名，并解释了一下这是一份意大利语的文件，并标注了收据部分的字样之后就回复了。。
@@ -119,8 +122,8 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     2019-01-23，又被 RentalCover 打了回来说收据单不正确，不符合他们的要求，我都要崩溃了。随即联系了我的租车公司 JoyRent 询问材料是否有问题。这里表扬一下 JoyRent，我发邮件的时候是意大利时间的凌晨，我以为跟腐朽的英国公司 RentalCover 一样，又要隔好几天才能收到邮件，结果我在意大利时间当天早上 12 点就收到了回复邮件，告知我提供的材料是正确的，原文即「The pricing table (some EU rental companies use a table like this to calculate the damage cost) is the DAMAGE TABLE attached on this e-mail.
 According to our Rental Conditions (Art.5), the damage costs are calculated based on the damage tables available at the Desk and in our website ( www.joyrent.it).」。
     那时我一度被感觉踢皮球了，马上把该邮件转发到 RentalCover，语气开始有点强硬，告知你们两家公司材料不同步的问题不要让作为客户的我感到为难。结果在 2019-01-28，终于收到了 RentalCover 确认邮件，告知材料已经被接受，至此材料提交过程终于结束了...
-    
-![confirm-documents](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/confirm-document.png)
+
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/confirm-document.png" width = "360" height = "640" alt="confirm-documents" align=center />
 
 PS: 感觉沟通效率真的好低...腐朽的资本主义
  
