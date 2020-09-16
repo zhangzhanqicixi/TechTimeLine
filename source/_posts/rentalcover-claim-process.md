@@ -84,9 +84,9 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 
 - 第一次提交材料
 
-    当晚我就开始了 RentalCover 的索赔路程，用你当时投保的 email 和 预订编号 (以-INS结尾) 后，就进入索赔页面，按照他的页面提示，上传对应的文件就行了
-
-<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg" width = "360" height = "640" alt="online" align=center />
+    当晚我就开始了 RentalCover 的索赔路程，用你当时投保的 email 和 预订编号 (以-INS结尾) 后，就进入索赔页面，按照他的页面提示，上传对应的文件就行了。
+    
+![online](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/claim-online.jpg)
 
 - 第二题提交材料
 
@@ -110,7 +110,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
     
     为此我还特地 Google 查了下 Invoice 和 Receipt 的区别，发现 Invoice 是发票的意思，Receipt 才是收据的意思。经过这件事，我一定不会乱用这两个单词了。。
     
-<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png" width = "440" height = "640" alt="reply2" align=center />
+![reply2](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/reply2.png)
     
 
 所以我什么都没干，把文件重命名了下，改成了「receipt-of-repair-cost.pdf」的文件名，并解释了一下这是一份意大利语的文件，并标注了收据部分的字样之后就回复了。。
@@ -123,7 +123,7 @@ https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process
 According to our Rental Conditions (Art.5), the damage costs are calculated based on the damage tables available at the Desk and in our website ( www.joyrent.it).」。
     那时我一度被感觉踢皮球了，马上把该邮件转发到 RentalCover，语气开始有点强硬，告知你们两家公司材料不同步的问题不要让作为客户的我感到为难。结果在 2019-01-28，终于收到了 RentalCover 确认邮件，告知材料已经被接受，至此材料提交过程终于结束了...
 
-<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/confirm-document.png" width = "360" height = "640" alt="confirm-documents" align=center />
+<img src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/rentalcover-claim-process/confirm-document.png" width = "160" height = "320" alt="confirm-documents" align=center />
 
 PS: 感觉沟通效率真的好低...腐朽的资本主义
  
