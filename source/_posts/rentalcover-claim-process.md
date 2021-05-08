@@ -2,6 +2,7 @@
 title: 使用 Rentalcars / RentalCover 租车欧洲自驾出险全纪录
 date: 2019-01-18 23:21:57
 tags:
+hidden: true
 ---
 
 ![cover](
