@@ -7,6 +7,10 @@ hidden: true
 
 ![kk-cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/20210411.jpg)
 
+##### 20210530 周日
+**Part1**
+周日早上好呀陈老师，今天天气不错，我一会儿起床之后，吃个饭就准备回杭州了。
+
 ##### 20210529 周六
 **Part1**
 张鸭鸭在周六的凌晨祝陈老师您周六一整天都要愉快呀，希望陈老师您今天一整天都有一个好心情～
