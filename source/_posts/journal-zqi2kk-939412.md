@@ -1,11 +1,14 @@
 ---
 title: 张鸭鸭给陈老师的每日二三话
-date: 2021-05-31 01:28:20
+date: 2021-06-01 01:28:20
 tags:
 hidden: true
 ---
 
 ![kk-cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/20210411.jpg)
+
+##### 20210601 周二
+六一儿童节快乐呀陈老师，祝您以后天天都可以开心，无忧无虑，烦恼驱散～
 
 ##### 20210531 周一
 **Part1**
