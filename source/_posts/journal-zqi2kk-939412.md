@@ -147,6 +147,10 @@ hidden: true
 
 后来我唱得嗓子也差不多哑了，刚好也录完了，精修的版本要等一周，但是母带，就是没有任何修音的版本我已经拿到了。只能说，没翻车吧，哈哈哈哈哈哈哈。基本都在调子上，但是我唱不出伍佰的那种「沧桑」和「随性」吧，就是听着会有点「稚嫩」。哈哈哈哈哈哈哈哈。我把母带先放上来，你要听可以听听，然后等成品到了之后，我再把成品拿出来，到时候我们对比一下～
 
+<audio controls="controls">
+    <source src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/210605-last-dance-origin.mp3" type="audio/mp3" />
+</audio>   
+
 那个小姐姐跟我说，我有几句唱的还挺好的，有几句就是音准不太准，但是这些后期都能调的，总体反正我的「中气」在，而且这歌不像普通的歌，调其实挺高的，而且没有副歌不副歌之分，全歌都是这么歌节奏这么个气息，相对来说还是要花费不少力气。
 
 是的，我也觉得唱完我整个人，基本就唱不动了。
@@ -158,9 +162,6 @@ hidden: true
 
 反正我觉得如果成品出来效果好，以后半年一年来录一首，感觉也还不错～
 
-<audio controls="controls">
-    <source src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/210605-last-dance-origin.mp3" type="audio/mp3" />
-</audio>   
 
 **Part9**
 出来之后本来就想回家了嘛，看到地铁站旁边不是有那家很大的 MUJI，就进去逛了逛，这一逛又是 1 个多小时过去了。
