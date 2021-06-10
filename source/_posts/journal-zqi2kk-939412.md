@@ -44,7 +44,8 @@ hidden: true
 </audio>   
 
 **Part4**
-转正结果出来了，算是提前转正了，绩效也如愿拿了 3.5+，好像一切都慢慢地越来越好啦～
+转正结果出来了，算是提前转正了，绩效也如愿拿了 3.5+
+希望我俩在未来分开的日子里，一切都慢慢地可以越来越好～
 ![probation-period-is-completed](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/probation-period-is-completed.jpg)
 
 ##### 20210609 周三
