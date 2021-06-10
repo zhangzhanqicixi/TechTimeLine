@@ -43,6 +43,10 @@ hidden: true
     <source src="https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/210605-last-dance-v3.mp3" type="audio/mp3" />
 </audio>   
 
+**Part4**
+转正结果出来了，算是提前转正了，绩效也如愿拿了 3.5+，好像一切都慢慢地越来越好啦～
+![probation-period-is-completed](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/probation-period-is-completed.jpg)
+
 ##### 20210609 周三
 **Part1**
 早上好，这周过得太快了，一下子感觉就周三了，明天就要正式答辩了，今天练习一下，这真的是我转正准备准备得最认真的一次。
