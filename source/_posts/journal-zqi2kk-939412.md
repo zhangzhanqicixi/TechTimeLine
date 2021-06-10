@@ -28,15 +28,13 @@ hidden: true
 
 > 也希望我对我俩感情的视角，也可以更加「广」一点，不要再拘泥于之前那些事情了。
 
-我把我的 PPT 放上来，就当归档一下。
-
-[转正答辩 PPT](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/presentation-for-probation-v5.pptx)
+我把我的 PPT 放上来，就当归档一下，点[这里](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/presentation-for-probation-v5.pptx)下载。
 
 **Part3**
 刚才收到周日唱的 LastDance 也修好了，我听了下觉得和我想象中的精修不太一样，就修得不是很好，乱七八糟的听起来，而且还是用了我最不喜欢的电音。
 反正我是不会再去了，但说好放上来的，我也放上来吧。
 
-但我发现一件很搞笑的事是，看了 LastDance 的 [百度词条](https://baike.baidu.com/item/last%20dance/5014329) ，里面「歌曲鉴赏」形容这首歌：
+但我发现一件很搞笑的事是，看了 Last Dance 的 [百度词条](https://baike.baidu.com/item/last%20dance/5014329) ，里面「歌曲鉴赏」形容这首歌：
 > 擅长写离别类情歌的伍佰，《Last Dance》着重刻画恋人离别时的恋恋不舍，似有心存不甘、竭尽全力想要征得恋人挽留之意。《Last Dance》充满对爱情和被爱的渴望，虽然是撕心裂肺的伤感，却没有看破爱情、对爱情不再留恋的消极失望。伍佰用深情而沧桑的唱腔，满溢诗情、画面感饱和的歌词，将恋人分别时的余情未了而又无可奈何演绎到了极致。
 
 我：？？？我说最近我咋这么爱听呢？
