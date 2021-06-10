@@ -31,7 +31,7 @@ hidden: true
 我把我的 PPT 放上来，就当归档一下，点[这里](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/presentation-for-probation-v5.pptx)下载。
 
 **Part3**
-刚才收到周日唱的 LastDance 也修好了，我听了下觉得和我想象中的精修不太一样，就修得不是很好，乱七八糟的听起来，而且还是用了我最不喜欢的电音。
+刚才收到周日唱的 Last Dance 也修好了，我听了下觉得和我想象中的精修不太一样，就修得不是很好，乱七八糟的听起来，而且还是用了我最不喜欢的电音。
 反正我是不会再去了，但说好放上来的，我也放上来吧。
 
 但我发现一件很搞笑的事是，看了 Last Dance 的 [百度词条](https://baike.baidu.com/item/last%20dance/5014329) ，里面「歌曲鉴赏」形容这首歌：
