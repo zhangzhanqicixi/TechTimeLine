@@ -8,7 +8,6 @@ hidden: true
 ![kk-cover](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/journal-zqi2kk-939412/20210411.jpg)
 
 ##### 20210620 周日
-20210620 周日
 **Part1**
 疲惫的周日～
 一个好消息，一个坏消息吧。
