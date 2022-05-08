@@ -7,7 +7,7 @@ tags:
 
 在数据治理，模型升级改造等场景中，我们常常需要通过查找上下游的血缘关系为下线、升级做参考，以往我们只能依托计算平台自身的血缘能力，看到计算节点和数据表之间的血缘关系。但只有这些血缘来分析是不够的，基于数据生产链路，需要清楚的知道数据全链路的流转情况。
 
-![overview](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/govern-blood-data-diagram/overview-1.jpg)
+![overview](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/govern-blood-data-diagram/overview-2.png)
 
 
 <!--more-->
