@@ -1,5 +1,5 @@
 ---
-title: MaxCompute（ODPS）数据计算中的长尾问题
+title: MaxCompute (ODPS) 计算中的长尾问题
 date: 2022-11-04 15:23:15
 tags:
 ---
@@ -10,6 +10,7 @@ MaxCompute（ODPS）计算本质是 MapReduce 的计算，MapReduce 通常分为
 
 ![](https://timeline229-image.oss-cn-hangzhou.aliyuncs.com/the-long-tail-program-in-data-computing-odps-maxcompute/16675478297855.jpg)
 
+<!--more-->
 
 ##### Map 阶段长尾
 Map 阶段一般是 MapReduce 的开始阶段，主要从文件系统读入数据块到 Map端，Map 端主要有两块作用：一是每输入一个文件分片，都会被分配到一个 map instance 进行计算；
