@@ -1,21 +1,33 @@
 ---
 title: ABOUT ME
-date: 2020-06-11 23:10:57
+date: 2023-01-18 15:09:00
 desc:
 ---
 
-> *Keywords*
-> Programming, Digital Product, History（China, Asia, WarII, Europe）, Journey
+先简单自我介绍一下，我16年本科毕业电子信息类专业，学校不是很好就不说了，base在杭州，老家在宁波。毕业后就押宝互联网，先后在政务业务里做过爬虫，爬完了全国的工商公示系统；在全国最大的母婴垂直业务中做过大数据研发，从0-1搭建大数据组件，但后期由于成本问题我们慢慢开始上云，我开始转型算法应用，做算法模型与接口；之后又跳槽到12306下属的铁路公司做了一年应用算法，但在20年初，由于该公司要搬往厦门，我想我一个浙江人怎么可能去福建，所以无奈又开始找工作。现在在杭州某大厂上班，由于学历不佳，在大厂只能从事数据研发的工作，每天当SB。
 
-My hometown is Ningbo Zhejiang. Now I am Studying/Working in Hangzhou. I started to be a programmer and started learning Java in 2016. I like all kinds of digital products, especially from Apple & Google. I am very enjoy taking a journey alone, and in the process of journey, I began to interested in History.
+有位伟人说过，「一个人的命运啊，当然要靠自我奋斗，但是也要考虑到历史的进程」，在互联网蓬勃发展的前几年，我是万万没有理解这句话的。直到这几年，身边被裁的同学越来越多，工作也开始难找，好多985的同学都开始瑟瑟发抖的时候，我逐渐意识到，这几年互联网带给我们物质上的提升，只不过是这个行业的红利所洒下来的阳光而已，你努力耕耘，收获相对就多一点。但当阳光变成雾霾的时候，其实不管你再怎么努力，你都抵挡不住这个行业下行带来的损失。
 
-##### Previous Experience
-I used to develop enterprise console using Java, Then joined A BigData company which service for government and started to work as a crawer. Now I focus on **BigData Development** & **Recommended System Development**, and learning machine learning algorithm hard.
+扯远了，博客从 2018 年搭建到今天，也有6年的时间了，从博客每年的更新量可以看到，我也从一个对技术充满激情，恨不得每天都在学习新的技能点的人，变成了半年都憋不出一片文章的划水怪。这里的原因有我自己不想再片面的，单纯的记录单一模块的功能点，感觉没什么价值之外，另一点也是对未来没有了方向，感觉没什么好写的。
 
-If you have any question or want to contact me, Do not hesitate.
+这也是进入大厂的同学，都有的烦恼，螺丝钉的烦恼，你不再能接触到比较广面的，从上到下的技能桟，你所需要的工具、功能，只要不在你的职责范围内的，都有专门的同学来完成。出现问题，一手转一手，大量的时间都在内耗上。
 
-##### Contact Me
-- Email [mailto:zhangzhanqicixi@gmail.com](mailto:zhangzhanqicixi@gmail.com)
-- Telegram [@moo_less](https://t.me/moo_less)
-- GitHub [https://github.com/zhangzhanqicixi](https://github.com/zhangzhanqicixi)
+我的博客的流量主要来自 Google SEO，时不时会从 Google Console 看一下来我博客搜索的关键字。网站本身也有埋点，会上报到阿里云，我也能看到每天CTR比较好的文章是哪些。从历史数据看，19年写的介绍 AppleTV 和 18年写的介绍 Netflix 的文章，到现在的点击都很不错，每天博客的流量基本都是这两篇在撑着。也难怪，AppleTV 和 Netflix，对刚入门科技，喜欢稍微折腾一下的人来说，是属于比较「炫酷」的事情，毕竟有门槛在那里，你要整网络环境，整账号，配置路由等等。当年我第一次配置好 AppleTV 和 Netflix 的时候，我也很兴奋，甚至还发了个微博。
 
+但现在再让我写这种，我可能就写不出来了（或许以后还是为了流量会写一些其他的产品），可能也是心态变了吧，以前高产写博客，主要是为了流量，想着博客的流量能尽快的升起来，然后接广告，赚外快。但现在，开始思考，写博客的目的，还是想往内收一收。等到真的有什么东西可以总结一下，也想分享给大家的时候，就写一篇发上来。
+
+感觉年纪大了，很多事都不再像几年前那样「急功近利」。
+
+更新这篇 About Me 的时候，也正值23年农历新年前夕，23年的新年愿望也定好了：
+
+- 参加今年的研究生考试，报名同济大学
+- 去一次新疆可可托海外滑
+
+就两个简单的愿望，希望今年能够实现。
+
+
+哦对了，如果有什么问题想联系我，欢迎发邮件：
+zhangzhanqicixi@gmail.com
+
+
+感谢你读到这里，祝你每天开心～
